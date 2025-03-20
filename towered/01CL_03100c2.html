@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>01CL_03100c2</title>
+	<meta name="robots" content="noindex">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,400i,700,700i,800,800i&display=swap" rel="stylesheet"><!-- font-family: 'Merriweather Sans', sans-serif; -->
+	<link rel="stylesheet" type="text/css" href="css/sidebar.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/style-custom-icon.css">
+
+	<script type="text/javascript" src="js/custom.js"></script>
+
+	
+    <!-- FlexSlider -->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
+	<script defer src="js/jquery.flexslider.js"></script>
+	    <script type="text/javascript">
+
+	    jQuery(window).load(function(){
+	      jQuery('#flexslider').flexslider({
+	        animation: "fade",
+	        animationLoop: false,
+
+	        start: function(slider){
+	          jQuery('body').removeClass('loading');
+	        }
+	      });
+	    });
+	</script>
+	<!-- end FlexSlider -->
+	<!-- donut -->
+	<script type="text/javascript" src="js/jquery.easy-pie-chart.min.js"></script>
+	<script type="text/javascript" src="js/jquery.knob.min.js"></script>
+	<script type="text/javascript">
+	$(function() {
+	    //create instance
+	    $('.chart-donnut').easyPieChart({
+	        lineWidth: 15
+	    });
+	    $(".knob").knob({
+            'readOnly': true
+        })
+	});
+	</script>
+</head>
+<body class="bg-grey-popup">
+	<div id="menu-top-responsive" class="">
+		<div id="wrap-logo">
+			<a href="#" id="logo"><img src="images/logo.png"></a>
+			<a href="#" id="menu-button-responsive"><i class="fas fa-bars"></i></a>
+		</div>
+
+	</div>
+	<div id="sidebar-content-mobile" class="menu-mobile">
+		<ul id="nav-mobile" class="nav">
+			<li>
+				<a href="#" class="icon-fa icon-home">
+					<span class="group-hide">Home</span>
+				</a>
+			</li>
+			<li><a href="#" class="icon-fa icon-calendar"><span class="group-hide">My Calendar</span></a></li>
+						<li class="inactive"><a href="#" class="icon-fa icon-user-group"><span class="group-hide">Teams</span></a></li>
+						<li class="inactive"><a href="#" class="icon-fa icon-book-reader icon-solid"><span class="group-hide">My Advisees</span></a></li>
+						<li><a href="#" class="icon-fa icon-book-alt"><span class="group-hide">My Courses</span></a></li>
+						<li class="active"><a href="01CL_03100.html" class="icon-fa icon-book-title"><span class="group-hide"> My Projects</span></a></li>
+						<li class="inactive"><a href="#" class="icon-fa icon-clone"><span class="group-hide"> My Tiles</span></a></li>
+						<li class="inactive"><a href="#" class="icon-fa icon-copy"><span class="group-hide"> My Files</span></a></li>
+						<li><a href="#" class="icon-fa icon-th-large"><span class="group-hide">Resources</span></a></li>
+						<li><a href="#" class="icon-fa icon-poll-people"><span class="group-hide">Forums</span></a></li>
+						<li class="inactive"><a href="#" class="icon-fa icon-sun-haze"><span class="group-hide">Opportunities</span></a></li>
+						<li><a href="#" class="icon-fa icon-user-friends icon-solid"><span class="group-hide">Recommended Partners</span></a></li>
+						<li><a href="#" class="icon-fa icon-settings"><span class="group-hide">Settings</span></a></li>
+		</ul>
+	</div>
+	<div id="container">
+		<div id="sidebar" class="sidebar-fixed">
+			<div id="sidebar-wrap">
+				<div id="wrap-logo">
+					<a href="#" id="logo"><img src="images/logo-a.png"><img class="group-hide" src="images/logo-b.png"></a>
+				</div>
+				                <div class="wrap-menu-button">
+					<a href="#" id="menu-button-hide-show" class="icon-fa icon-arrow-left"></a>
+				</div>
+				<div id="sidebar-content" class="aux">
+					<ul id="nav" class="nav">
+						
+
+						<li>
+							<a href="#" class="icon-fa icon-home">
+								<span class="group-hide">Home</span>
+							</a>
+						</li>
+						<li><a href="#" class="icon-fa icon-calendar"><span class="group-hide">My Calendar</span></a></li>
+						<li class="inactive"><a href="#" class="icon-fa icon-user-group"><span class="group-hide">Teams</span></a></li>
+						<li class="inactive"><a href="#" class="icon-fa icon-book-reader icon-solid"><span class="group-hide">My Advisees</span></a></li>
+						<li><a href="#" class="icon-fa icon-book-alt"><span class="group-hide">My Courses</span></a></li>
+						<li class="active"><a href="01CL_03100.html" class="icon-fa icon-book-title"><span class="group-hide"> My Projects</span></a></li>
+						<li class="inactive"><a href="#" class="icon-fa icon-clone"><span class="group-hide"> My Tiles</span></a></li>
+						<li class="inactive"><a href="#" class="icon-fa icon-copy"><span class="group-hide"> My Files</span></a></li>
+						<li><a href="#" class="icon-fa icon-th-large"><span class="group-hide">Resources</span></a></li>
+						<li><a href="#" class="icon-fa icon-poll-people"><span class="group-hide">Forums</span></a></li>
+						<li class="inactive"><a href="#" class="icon-fa icon-sun-haze"><span class="group-hide">Opportunities</span></a></li>
+						<li><a href="#" class="icon-fa icon-user-friends icon-solid"><span class="group-hide">Recommended Partners</span></a></li>
+						<li><a href="#" class="icon-fa icon-settings"><span class="group-hide">Settings</span></a></li>
+					</ul>
+				</div>
+				<div id="wrap-logo-bottom" class="text-center">
+					<a href="#"><img src="images/logo-tower-education-a.png" width="50"><img class="group-hide" src="images/logo-tower-education-b.png" width="100"></a>
+				</div>
+			</div>
+		</div>
+		<div id="content" class="">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<section class="top">
+							<script type="text/javascript" src="template-parts/bradley_top_left_icon.js"></script>
+							<div class="wrap-top-search">
+								<div class="d-flex">
+									<div class="top-search">
+										<div class="box-search">
+											<form action="">
+												<input type="text" placeholder="Search">
+												<button type="submit"><i class="fas fa-search"></i></button>
+											</form>
+										</div>
+										<div class="box-question">
+											<div class="btn-group btn-group-menu">
+												<a href="javascript:void(0);" class="btn-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													<span class="icon-solid icon-input-search"></span>
+												</a>
+												<div class="dropdown-menu">
+													<div id="user-toltip" class="toltip menu-toltip toltip-overlay">
+														<ul>
+															<li><a href="#" data-toggle="modal" data-target="#modalWelcome">Starter Guide</a></li>
+															<li><a href="#">Support Documentation</a></li>
+															<li><a href="#">Contact Support</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</section>
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+							  <li class="breadcrumb-item"><a href="bradley home screen.html">Home</a></li>
+							  <li class="breadcrumb-item active" aria-current="page">My Projects</li>
+							</ol>
+						</nav>
+						<section>
+							<div class="row">
+								<div class="col-lg-9 mb-4">
+									<div class="resources box box-border-radius box-shadow bg-white">
+										<div class="inner-wrap">
+											<div class="box-top position-relative">
+												<h2 class="box-subhead mw-100"><i class="fal fa-book"></i><a href="#" class="color-black hover-underline color-blue-light-hover">My Projects</a></h2>
+												<a href="#" class="icon-setting icon-box mb-5"><span class="btn btn-blue btn-w-100 mr-2 text-uppercase">New Project</span><div></div></a>
+											</div>
+										</div>
+										<div class="box-middle">
+
+											<ul class="nav nav-tabs" id="tabs" role="tablist">
+												<li class="nav-item">
+												<a class="nav-link active" id="projects-tab" data-toggle="tab" href="#projects" role="tab" aria-controls="projects" aria-selected="true">Projects</a>
+												</li>
+												<li class="nav-item">
+												<a class="nav-link" id="tasks-tab" data-toggle="tab" href="#tasks" role="tab" aria-controls="tasks" aria-selected="false">Tasks</a>
+												</li>
+
+											</ul>
+											<div class="tab-content" id="myTabContent">
+												<div class="tab-pane fade show active" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+
+													<ul class="nav nav-tabs nav-tabs-whithout-style" role="tablist">
+														<li class="nav-item">
+														<a class="nav-link " id="progress-tab" data-toggle="tab" href="#progress" role="tab" aria-controls="progress" aria-selected="true">In Progress</a>
+														</li>
+														<li class="nav-item">
+														<a class="nav-link active" id="past-tab" data-toggle="tab" href="#past" role="tab" aria-controls="past" aria-selected="false">Portfolio</a>
+														</li>
+
+													</ul>
+													<div class="tab-content" id="myTabContent">
+														<div class="tab-pane fade " id="progress" role="tabpanel" aria-labelledby="progress-tab">
+															<div class="row">
+																<div class="col-md-6">
+																	<div class="box-project-progress box-project-progress-orange">
+																		<div class="box-project-progress-header">
+
+																		</div>
+																		<div class="box-project-progress-body">
+																			<h4><a href="01CL_01000a2.html">Ethics in Multinational Management</a></h4>
+																			<div class="d-flex">
+																				<div class="box-donnut box-donnut-30 pr-4">
+																					<input type="text" class="knob" value="0" data-width="150" data-height="150" data-fgColor="#FF993E" disabled="">
+																				</div>
+																				<div class="box-text">
+																					This course is designed to develop a student's ability to recognize and reason about ethical issues connected with multinational business management...
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="col-md-6">
+																	<div class="box-project-progress box-project-progress-green">
+																		<div class="box-project-progress-header">
+
+																		</div>
+																		<div class="box-project-progress-body">
+																			<h4>AHEA Course Orientation</h4>
+																			<div class="d-flex">
+																				<div class="box-donnut box-donnut-30 pr-4">
+																					<input type="text" class="knob" value="45" data-width="150" data-height="150" data-fgColor="#339937" disabled="">
+																				</div>
+																				<div class="box-text">
+																					This course is designed to develop a student's ability to recognize and reason about ethical issues connected with multinational business management...
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="tab-pane fade show active" id="past" role="tabpanel" aria-labelledby="past-tab">
+															<div class="row">
+																<div class="col-md-6">
+																	<div class="box-project-progress box-project-progress-brown">
+																		<div class="box-project-progress-header">
+
+																		</div>
+																		<div class="box-project-progress-body">
+																			<h4>Virtual Transformation of International Business</h4>
+																			<div class="d-flex">
+																				<div class="box-donnut pr-4">
+																					<input type="text" class="knob" value="100" data-width="150" data-height="150" data-fgColor="#339937" disabled="">
+																				</div>
+																				<div class="box-text">
+																					This Peer Review of academic work is conducted by diverse business educators and professionals to assess the quality of the article to be submitted in scholarly journal...
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="col-md-6">
+																	<div class="box-project-progress box-project-progress-orange">
+																		<div class="box-project-progress-header">
+
+																		</div>
+																		<div class="box-project-progress-body">
+																			<h4><a href="01CL_01000a2.html">Ethics in Multinational Management</a></h4>
+																			<div class="d-flex">
+																				<div class="box-donnut box-donnut-30 pr-4">
+																					<input type="text" class="knob" value="100" data-width="150" data-height="150" data-fgColor="#FF993E" disabled="">
+																				</div>
+																				<div class="box-text">
+																					This course is designed to develop a student's ability to recognize and reason about ethical issues connected with multinational business management...
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+
+												</div>
+												<div class="tab-pane fade" id="tasks" role="tabpanel" aria-labelledby="tasks-tab">
+													<table class="table table-font18">
+														<thead>
+															<tr>
+																<th></th>
+																<th class="al">Project</th>
+																<th class="al">Title</th>
+																<th class="al">Due Date</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td class="td-valign-bottom td-icon-arrow td-icon-arrow"><i class="fas fa-chevron-circle-right color-orange fa-2x"></i></td>
+																<td class="td-valign-top">
+																	<a href="#">Ethics in Multinational Management</a>
+																</td>
+																<td class="td-valign-top">
+																	Refine Course Identification
+																</td>
+																<td class="td-valign-top">
+																	2019-12-11
+																</td>
+															</tr>
+															<tr>
+																<td class="td-valign-bottom td-icon-arrow td-icon-arrow"><i class="fas fa-chevron-circle-right color-orange fa-2x"></i></td>
+																<td class="td-valign-top">
+																	<a href="#">AHEA Course Orientation</a>
+																</td>
+																<td class="td-valign-top">
+																	Take Personality Assessment
+																</td>
+																<td class="td-valign-top">
+																	2020-01-15
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+
+											</div>
+											<nav aria-label="Page navigation example" class="mt-3 wrap-pagination">
+												  <ul class="pagination">
+												    <li class="page-item">
+												      <a class="page-link" href="#" aria-label="Previous">
+												        <i class="fal fa-angle-left"></i>
+												      </a>
+												    </li>
+												    <li class="page-item"><a class="page-link" href="#">1</a></li>
+												    <li class="page-item">
+												      <a class="page-link" href="#" aria-label="Next">
+												        <i class="fal fa-angle-right"></i>
+												      </a>
+												    </li>
+												  </ul>
+											</nav>
+										</div>
+									</div>
+								</div><!--col-lg-4-->
+								<div class="col-lg-3 mb-4" draggable="true">
+
+
+
+										<div class="calendar box box-border-radius box-shadow bg-white h-auto">
+											<div class="inner-wrap">
+												<div class="box-top position-relative">
+													<h2 class="box-subhead headline-mycalendar">
+														<div><span class="icon-regular fa-calendar-alt"></span>My Calendar</div>
+														<select id="filter_event" class="select">
+															<option value="all" selected>All Events</option>
+															<option value="All Courses">All Courses</option>
+															<option value="All Projects" >All Projects</option>
+															<option value="BUS 101-02">BUS 101-02</option>
+															<option value="PRJ BUS 101">PRJ BUS 101</option>
+															<option value="PRJ BUS 203">PRJ BUS 203</option>
+														</select>
+													</h2>
+												</div>
+											</div>
+											<div class="box-middle mb-0">
+
+												<!-- define the calendar element -->
+												<div id='my-calendar-container'>
+													<div id="calendar-tiny"></div>
+												</div>
+
+												<script src="js/moment-2-9-0.min.js"></script>
+												<script src="js/fullcalendar.min.js"></script>
+												<link rel="stylesheet" href="css/fullcalendar.min.css" />
+
+												<!-- Page specific script -->
+												<script>
+													jQuery(document).ready(function(){
+														$('#calendar-tiny').fullCalendar({
+															header: {
+																left: 'prev,',
+																center: 'title',
+																right: 'next'
+															},
+															defaultDate: '2020-10-12',
+
+
+
+															editable: true,
+															eventLimit: true, // allow "more" link when too many
+
+															views: {
+																month: {
+																	columnFormat: 'dd' // set format for month here
+																},
+															},
+															eventRender: function(event, element, view) {
+																var cell_custom = $('<div class="event-styled"><a class="fc-day-grid-event fc-h-event fc-event fc-start fc-end fc-draggable" style="background-color:' + event.backgroundColor + ';border-color:' + event.borderColor + '"><div class="fc-content"><span class="fc-day">' + event.start.format('D')  + '</span></div></a><span class="popup" style="display: none;"><span class="event-title" style="background:' + event.backgroundColor + '">' + event.title + '<span class="popup-close">x</span></span><span class="event-content"><b>Bradley Dexter</b>, <i>Organizer</i></span><span class="event-link"><a href="" style="color:black;">View More <i class="fas fa-arrow-alt-circle-right"></i></a></span></span></div>');
+
+																var selectedIndex = $("#filter_event").prop("selectedIndex");
+
+																if (selectedIndex > 0) {
+																	if(['all', event.type_event].indexOf(jQuery('#filter_event').val()) >= 0 || ['all', event.type_pc].indexOf(jQuery('#filter_event').val()) >= 0)
+																		return cell_custom;
+																	else
+																		return "<div></div>";
+																}else
+																	return cell_custom;
+
+															},
+
+															events: [
+																{
+																	title          : 'Discuss Project with Partners',
+																	start          : '2020-10-01T08:00:00',
+																	end            : '2020-10-01T09:00:00',
+																	allDay         : false,
+																	backgroundColor: '#2ba0fc', //yellow
+																	borderColor    : '#2ba0fc', //yellow
+																	type_event	   : '',
+																	type_pc   : ''
+																},
+																{
+																	title          : 'Business Ethics Essay is Due',
+																	start          : '2020-10-13T07:00:00',
+																	end            : '2020-10-13T08:00:00',
+																	allDay         : true,
+																	backgroundColor: '#3b9941', //yellow
+																	borderColor    : '#3b9941', //yellow
+																	type_event	   : 'All Courses',
+																	type_pc   : 'BUS 101-02'
+																},
+																{
+																	title          : 'Refine Course Description',
+																	start          : '2020-10-15T12:00:00',
+																	end            : '2020-10-15T13:00:00',
+																	allDay         : true,
+																	backgroundColor: '#fd9846', //yellow
+																	borderColor    : '#fd9846', //yellow
+																	type_event	   : 'All Projects',
+																	type_pc   : 'PRJ BUS 203'
+																},
+																{
+																	title          : 'Review Accreditation',
+																	start          : '2020-10-16T12:00:00',
+																	end            : '2020-10-16T13:00:00',
+																	allDay         : true,
+																	backgroundColor: '#3b9941', //yellow
+																	borderColor    : '#3b9941', //yellow
+																	type_event	   : 'All Courses',
+																	type_pc   : ''
+																},
+																{
+																	title          : 'Define Credit Hours',
+																	start          : '2020-10-18T12:00:00',
+																	end            : '2020-10-18T13:00:00',
+																	allDay         : true,
+																	backgroundColor: '#fd9846', //yellow
+																	borderColor    : '#fd9846', //yellow
+																	type_event	   : 'All Projects',
+																	type_pc   : 'PRJ BUS 101'
+																},
+																{
+																	title          : 'Record Introductory Video',
+																	start          : '2020-10-19T12:00:00',
+																	end            : '2020-10-19T13:00:00',
+																	allDay         : true,
+																	backgroundColor: '#f89846', //yellow
+																	borderColor    : '#f89846', //yellow
+																	type_event	   : 'All Projects',
+																	type_pc   : 'PRJ BUS 203'
+																},
+																{
+																	title          : 'Review Accreditation Guidelines',
+																	start          : '2020-10-25T12:00:00',
+																	end            : '2020-10-25T13:00:00',
+																	allDay         : true,
+																	backgroundColor: '#fd9846', //yellow
+																	borderColor    : '#fd9846', //yellow
+																	type_event	   : 'All Projects',
+																	type_pc   : 'PRJ BUS 101'
+																},
+																{
+																	title          : 'Write Student Learning Outcomes',
+																	start          : '2020-10-29T12:00:00',
+																	end            : '2020-10-29T13:00:00',
+																	allDay         : true,
+																	backgroundColor: '#fd9846', //yellow
+																	borderColor    : '#fd9846', //yellow
+																	type_event	   : 'All Projects',
+																	type_pc   : 'PRJ BUS 203'
+																},
+															]
+														});
+
+														jQuery('#filter_event').on('change',function(){
+															jQuery('#calendar-tiny').fullCalendar('rerenderEvents');
+														})
+													});
+													jQuery(document).ready(function(){
+														jQuery("#wrap_filter_event").prependTo("#calendar-tiny .fc-right");
+
+														jQuery(document).on('click', '.event-styled', function(e){
+															jQuery(this).find('.popup').toggle();
+														});
+
+													});
+												</script>
+
+											</div>
+										</div>
+
+
+
+								</div>
+
+							</div><!-- row -->
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+<script src="js/jquery.sortable.js"></script>
+<script type="text/javascript">
+	jQuery(function() {
+		jQuery('.sortable').sortable({
+			placeholderClass: 'col-lg-4'
+		});
+	});
+</script>
+
+<!-- JAVASCRIPT FOR DONUT CHART -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
+
+</html>
+
+
+<!-- Modal -->
+<div class="modal fade" id="signOutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="sign-out-logo">
+        	<img src="images/logo.png">
+        </div>
+        <h2>Sign Out</h2>
+        <p>Are you sure you would like to Sign Out of your account?</p>
+      </div>
+      <div class="modal-footer ac">
+        <button type="button" class="" data-dismiss="modal" aria-label="Close">Cancel</button>
+        <button type="button" class="" data-dismiss="modal" aria-label="Close">Sign Out</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade modal-welcome" id="modalWelcome" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="padding-right: 0 !important;">
+  <div class="modal-dialog modal-dialog-900" role="document">
+    <div class="modal-content">
+      <div class="toltip-close3" style="top:14px;right:20px;font-size:15px;"><a href="javascript:void(0);" data-dismiss="modal"><i class="fa fa-times-circle"></i></a></div>
+      <div class="modal-body">
+        <div id="flexslider">
+        	<ul class="slides">
+	        	<li>
+	        		<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Welcome to InspirED <sup>&trade;</sup></h4>
+			        		<p>The InspirED<sup>&trade;</sup> platform is designed to support the critical mission and goals of higher education: teaching and learning, institutional effectiveness, student engagement and outcomes, growth strategies, curriculum development, student mobility, faculty development, efficiency, and cost containment. In this release, we are introducing our professional engagement solution, CollaboratED<sup>&trade;</sup>. Explore the platform by reviewing your home tiles and left navigation menu items.</p>
+
+			        		
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Update your Profile.</h4>
+			        		<p>Select your profile photo or name in the top navigation and select My Profile to view your profile. Select Edit Profile to begin updating your profile. Here you will see the information you included in your AHEA Membership Application. As you match with other prospective partners, they will be able to view your profile and invite you to their projects. Be sure to keep your profile updated to optimize your CollaboratED<sup>&trade;</sup> experience.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-2.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Add Interests.</h4>
+			        		<p>When editing your profile, scroll down to the Collaboration Interests tile and select the Add button to create your first interest. Interests will help you find better matches in the platform. CollaboratED<sup>&trade;</sup> will provide you with recommendations that pair well with your interests.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-3.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Meet your Matches.</h4>
+			        		<p>After creating your interests, select the Find Matches button on the Profile screen or while editing your interest to find prospective partners. On the Matches screen, you can browse through prospects, view their profiles, send them messages, and invite them to projects.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-4.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Create Projects.</h4>
+			        		<p>CollaboratED<sup>&trade;</sup> is designed to guide you through Course and Certificate Development Projects. Create projects from your interests on the profile screen, or start a new project on the My Projects screen. While in the project space, complete tasks to advance to milestones. Invite additional partners while you work. Add files and send messages to partners for effective collaboration. Stay tuned as we expand our project offerings to peer reviews, virtual exchange programs, and more.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-5.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Utilize Resources.</h4>
+			        		<p>Discover techniques, templates, and tutorials that will help with optimizing the use of InspirED<sup>&trade;</sup>, to manage the academic lifecycle at your institution, to collaborate with peers, and to engage constituents. Navigate to the Resources section by selecting Resources in your left navigation menu. The American Higher Education Alliance has constructed templates to support curriculum development, campus programs, and strategic initiatives.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-6.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Engage in Forum Discussions.</h4>
+			        		<p>You have full access to the American Higher Education Alliance network of instructors, administrators, and industry experts. Visit the Forums to discuss leading industry topics and to create some of your own. Go to Forums by selecting Forums in your left navigation menu. Meet AHEA Forum Moderators, share your expertise, and learn from others in your field.</p>
+			        		<div class="text-center">
+			        			<a href="javascript:void(0);" data-dismiss="modal" class="btn btn-blue">Get Started</a>
+			        		</div>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-7.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		    </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

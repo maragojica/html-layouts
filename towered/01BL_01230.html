@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>01BL_01230</title>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,400i,700,700i,800,800i&display=swap" rel="stylesheet"><!-- font-family: 'Merriweather Sans', sans-serif; -->
+	<link rel="stylesheet" type="text/css" href="css/sidebar.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-custom-icon.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/style-resources.css">
+	<link rel="stylesheet" type="text/css" href="css/style-profile.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+
+	<script type="text/javascript" src="js/custom.js"></script>
+
+	<script type="text/javascript" src="js/jquery.easy-pie-chart.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script>
+	$(document).ready(function(){
+		Plugins.init();
+	});
+	</script>
+
+    <!-- FlexSlider -->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
+	<script defer src="js/jquery.flexslider.js"></script>
+	    <script type="text/javascript">
+
+	    jQuery(window).load(function(){
+	      jQuery('#flexslider').flexslider({
+	        animation: "fade",
+	        animationLoop: false,
+
+	        start: function(slider){
+	          jQuery('body').removeClass('loading');
+	        }
+	      });
+	    });
+	</script>
+	<!-- end FlexSlider -->
+	
+	<script src="js/jquery-ui.js"></script>
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<script>
+	  jQuery(document).ready(function() {
+	    jQuery( ".datepicker" ).datepicker({
+	    	dateFormat: "yy-mm-dd",
+	    	showButtonPanel: true,
+		    closeText: 'Clear',
+		    onClose: function (dateText, inst) {
+		        if (jQuery(window.event.srcElement).hasClass('ui-datepicker-close')) {
+		             document.getElementById(this.id).value = '';
+		        }
+		    }
+	    });
+	  } );
+	</script>
+</head>
+<body class="bg-grey-popup">
+	<div id="menu-top-responsive" class="">
+		<div id="wrap-logo">
+			<a href="#" id="logo"><img src="images/logo.png"></a>
+			<a href="#" id="menu-button-responsive"><i class="fas fa-bars"></i></a>
+		</div>
+	</div>
+	<div id="sidebar-content-mobile" class="menu-mobile">
+		<ul id="nav-mobile" class="nav">
+			<li>
+				<a href="#" class="icon-fa icon-home">
+					<span class="group-hide">Home</span>
+				</a>
+			</li>
+			<li><a href="#" class="icon-fa icon-calendar"><span class="group-hide">My Calendar</span></a></li>
+			<li class="active"><a href="#" class="icon-fa icon-book"><span class="group-hide">My Courses</span></a></li>
+			<li class="">
+				<a href="#" class="icon-fa icon-alarm-clock"><span class="group-hide">My Holds</span></a>
+			</li>
+			<li><a href="#" class="icon-fa icon-usd-square"><span class="group-hide">My Financials</span></a></li>
+			<li><a href="#" class="icon-fa icon-user-chart"><span class="group-hide">My Academics</span></a></li>
+			<li><a href="#" class="icon-fa icon-solar-system"><span class="group-hide">My Groups</span></a></li>
+			<li><a href="#" class="icon-fa icon-book-medical"><span class="group-hide">Course Registration</span></a></li>
+
+
+			<li class="inactive"><a href="#" class="icon-fa icon-copy"><span class="group-hide"> My Files</span></a></li>
+			<li><a href="#" class="icon-fa icon-th-large"><span class="group-hide">Resources</span></a></li>
+			<li><a href="#" class="icon-fa icon-settings"><span class="group-hide">Settings</span></a></li>
+		</ul>
+		<div class="footer-sidebar-mobile">
+			<div id="wrap-logo-bottom" class="text-center">
+				<a href="#"><img src="images/logo-tower-education-a.png" width="50"><img class="group-hide" src="images/logo-tower-education-b.png" width="100"></a>
+			</div>
+		</div>
+	</div>
+	<div id="container">
+		<div id="sidebar" class="sidebar-fixed">
+			<div id="sidebar-wrap">
+				<div id="wrap-logo">
+					<a href="#" id="logo"><img src="images/logo-a.png"><img class="group-hide" src="images/logo-b.png"></a>
+				</div>
+				                <div class="wrap-menu-button">
+					<a href="#" id="menu-button-hide-show" class="icon-fa icon-arrow-left"></a>
+				</div>
+				<div id="sidebar-content" class="aux">
+					<ul id="nav" class="nav">
+						
+
+						<li>
+							<a href="#" class="icon-fa icon-home">
+								<span class="group-hide">Home</span>
+							</a>
+						</li>
+						<li><a href="#" class="icon-fa icon-calendar"><span class="group-hide">My Calendar</span></a></li>
+						<li class="inactive"><a href="#" class="icon-fa icon-user-group"><span class="group-hide">Teams</span></a></li>
+						<li class="inactive"><a href="#" class="icon-fa icon-book-reader icon-solid"><span class="group-hide">My Advisees</span></a></li>
+						<li class="active"><a href="#" class="icon-fa icon-book-alt"><span class="group-hide">My Courses</span></a></li>
+						<li><a href="01CL_03100.html" class="icon-fa icon-book-title"><span class="group-hide"> My Projects</span></a></li>
+						<li class="inactive"><a href="#" class="icon-fa icon-clone"><span class="group-hide"> My Tiles</span></a></li>
+						<li class="inactive"><a href="#" class="icon-fa icon-copy"><span class="group-hide"> My Files</span></a></li>
+						<li><a href="#" class="icon-fa icon-th-large"><span class="group-hide">Resources</span></a></li>
+						<li><a href="#" class="icon-fa icon-poll-people"><span class="group-hide">Forums</span></a></li>
+						<li class="inactive"><a href="#" class="icon-fa icon-sun-haze"><span class="group-hide">Opportunities</span></a></li>
+						<li><a href="#" class="icon-fa icon-user-friends icon-solid"><span class="group-hide">Recommended Partners</span></a></li>
+						<li><a href="#" class="icon-fa icon-settings"><span class="group-hide">Settings</span></a></li>
+					</ul>
+				</div>
+				<div id="wrap-logo-bottom" class="text-center">
+					<a href="#"><img src="images/logo-tower-education-a.png" width="50"><img class="group-hide" src="images/logo-tower-education-b.png" width="100"></a>
+				</div>
+			</div>
+		</div>
+		<div id="content" class="">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<section class="top">
+							<script type="text/javascript" src="template-parts/bradley_top_left_icon.js"></script>
+							<div class="wrap-top-search">
+								<div class="d-flex">
+									<div class="top-search">
+										<div class="box-search">
+											<form action="">
+												<input type="text" placeholder="Search">
+												<button type="submit"><i class="fas fa-search"></i></button>
+											</form>
+										</div>
+										<div class="box-question">
+											<div class="btn-group btn-group-menu">
+												<a href="javascript:void(0);" class="btn-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													<span class="icon-solid icon-input-search"></span>
+												</a>
+												<div class="dropdown-menu">
+													<div id="user-toltip" class="toltip menu-toltip toltip-overlay">
+														<ul>
+															<li><a href="#" data-toggle="modal" data-target="#modalWelcome">Starter Guide</a></li>
+															<li><a href="#">Support Documentation</a></li>
+															<li><a href="#">Contact Support</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+							  <li class="breadcrumb-item"><a href="#">Home</a></li>
+							  <li class="breadcrumb-item"><a href="#">My Courses</a></li>
+							  <li class="breadcrumb-item"><a href="#">BUS 131-02</a></li>
+							  <li class="breadcrumb-item active" aria-current="page">New Meeting</li>
+							</ol>
+						</nav>
+						<section class="row row-custom announcements mb-4">
+							<div class="col-lg-12">
+								<div class="box box-border-radius box-shadow bg-white w-100">
+									<div class="toltip-open position-relative">
+										<a href="javascript:void(0);" class="icon-setting icon-box btn-menu"><i class="fas fa-cog"></i></a>
+										<div class="toltip5 menu-toltip toltip-overlay any-toltip">
+											<ul>
+												<li><a href="#"><span class="icon-regular icon-cog color-white icon-regular mr-1"></span> Edit Settings</a></li>
+												<li><a href="#"><span class="icon-regular icon-edit color-white icon-regular mr-1"></span> Turn Editing Off</a></li>
+												<li><a href="#"><span class="icon-regular icon-clipboard-check color-white icon-regular mr-1"></span> Course Completion</a></li>
+												<li><a href="#"><span class="icon-regular icon-book-user color-white icon-regular mr-1"></span>Unenroll Me from BUS 131-02</a></li>
+												<li><a href="#"><span class="icon-regular icon-filter color-white icon-regular mr-1"></span> Filters</a></li>
+
+												<li><a href="#"><span class="icon-regular icon-book-user color-white icon-regular mr-1"></span> Gradebook Setup</a></li>
+												<li><a href="#"><span class="icon-regular icon-backspace color-white icon-regular mr-1"></span> Reset</a></li>
+
+												<li><a href="#"><span class="icon-regular icon-server color-white icon-regular mr-1"></span> Backup</a></li>
+												<li><a href="#"><span class="icon-regular icon-trash-undo-alt color-white icon-regular mr-1"></span> Restore</a></li>
+												<li><a href="#"><span class="icon-regular icon-file-import color-white icon-regular mr-1"></span> Import</a></li>
+
+												<li><a href="#"><span class="icon-regular icon-share-square color-white icon-regular mr-1"></span>Share</a></li>
+
+
+												<li><a href="#"><span class="icon-regular icon-list-ol color-white icon-regular mr-1"></span> Outcomes</a></li>
+												<li><a href="#"><span class="icon-regular icon-plus-square color-white icon-regular mr-1"></span>More...</a></li>
+											</ul>
+										</div>
+									</div>
+									<h2 class="box-subhead pl-0 font30 mw-100 mb-2">BUS 131-02: ETHICS IN MULTINATIONAL MANAGEMENT</h2>
+									<h3 class="color-orange font24 mb-3">Location: Online</h3>
+
+									<div class="row row-custom">
+										<div class="col-md-4 wrap-subtitle">
+											<h5 class="color-grey font18 font-weight-bold">Spring 2020</h5>
+										</div>
+										<div class="col-md-4 text-center wrap-menu-icons">
+											<nav class="menu-icons d-inline-block">
+												<ul>
+													<li class="active">
+														<a class="tooltips" href="/01BL_01104">
+															<span class="icon-solid icon-book-alt color-black mr-1 icon-size-1"></span>
+															<span class="tooltiptext tooltip-top">Course</span>
+														</a>
+													</li>
+													<li>
+														<a class="tooltips" href="/01BL_01104">
+															<span class="icon-solid icon-user-check color-black mr-1 icon-size-1"></span>
+															<span class="tooltiptext tooltip-top">Participants</span>
+														</a>
+													</li>
+													<li>
+														<a class="tooltips" href="#">
+															<span class="icon-solid icon-award color-black mr-1 icon-size-1-2"></span>
+															<span class="tooltiptext tooltip-top">Badges</span>
+														</a>
+													</li>
+													<li>
+														<a class="tooltips" href="#">
+															<span class="icon-solid icon-user-chart color-black mr-1 icon-size-1"></span>
+															<span class="tooltiptext tooltip-top">Competencies</span>
+														</a>
+													</li>
+													<li>
+														<a class="tooltips" href="/01BL_03900">
+															<span class="icon-solid icon-spell-check color-black mr-1 icon-size-1"></span>
+															<span class="tooltiptext tooltip-top">Grades</span>
+														</a>
+													</li>
+												</ul>
+											</nav>
+
+										</div>
+										<div class="col-md-4 text-right wrap-btns">
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="three-columns">
+							<div class="row row-custom mb-4 sortable">
+								<div class="col-lg-12 mb-4">
+									<div class="box box-border-radius box-shadow bg-white height-auto">
+										<h2 class="box-subhead pl-0 font30 mw-100 mb-2">New Meeting</h2>
+										
+										<div class="row row-custom form-group">
+											<label class="col-md-3">Meeting Name</label>
+											<div class="col-md-9"><input type="text" value="BUS 131 Classroom" class="form-control" /></div>
+										</div>
+										<div class="row row-custom form-group">
+											<label class="col-md-3">Description</label>
+											<div class="col-md-9"><textarea class="form-control">Enter our virtual classroom to attend scheduled lectures for the Ethics in Multinational Management course.</textarea></div>
+										</div>
+										<div class="row row-custom form-group">
+											<label class="col-md-3">Start Date</label>
+											<div class="col-md-9">
+												<div class="wrap-start-date">
+													<select class="select-day form-control mr-2 d-inline-block">
+														<option>Day</option>
+														<option>1</option>
+														<option>2</option>
+														<option>3</option>
+														<option>4</option>
+														<option>5</option>
+														<option>6</option>
+														<option>7</option>
+														<option>8</option>
+														<option>9</option>
+														<option>10</option>
+														<option>11</option>
+														<option>12</option>
+														<option>13</option>
+														<option>14</option>
+														<option>15</option>
+														<option>16</option>
+														<option>17</option>
+														<option>18</option>
+														<option>19</option>
+														<option>20</option>
+														<option selected="">21</option>
+														<option>22</option>
+														<option>23</option>
+														<option>24</option>
+														<option>25</option>
+														<option>26</option>
+														<option>27</option>
+														<option>28</option>
+														<option>29</option>
+														<option>30</option>
+														<option>31</option>
+													</select>
+													<select class="select-month form-control mr-2 d-inline-block">
+													   <option >Month</option>
+														<option>January</option>
+														<option>February</option>
+														<option>March</option>
+														<option>April</option>
+														<option>May</option>
+														<option>June</option>
+														<option>July</option>
+														<option>August</option>
+														<option>September</option>
+														<option selected="">October</option>
+														<option>November</option>
+														<option>December</option>
+													</select>
+													<select class="select-year form-control mr-2 d-inline-block">
+															<option>2019</option>
+															<option selected="">2020</option>
+															<option>2021</option>
+															<option>2022</option>
+															<option>2023</option>
+															<option>2024</option>
+															<option>2025</option>
+													</select>
+													<select class="select-hour form-control mr-2 d-inline-block">
+															<option>1</option>
+															<option>2</option>
+															<option>3</option>
+															<option>4</option>
+															<option>5</option>
+															<option selected="">6</option>
+															<option>7</option>
+															<option>8</option>
+															<option>9</option>
+															<option>10</option>
+															<option>11</option>
+															<option>12</option>
+													</select>
+													<div class="d-flex">
+														<select class="select-minute form-control mr-2 w-auto d-inline-block">
+																<option >MM</option>
+																<option selected="">00</option>
+																<option>01</option>
+																<option>02</option>
+																<option>03</option>
+																<option>04</option>
+																<option>05</option>
+																<option>06</option>
+																<option>07</option>
+																<option>08</option>
+																<option>09</option>
+																<option>10</option>
+																<option>11</option>
+																<option>12</option>
+																<option>13</option>
+																<option>14</option>
+																<option>15</option>
+																<option>16</option>
+																<option>17</option>
+																<option>18</option>
+																<option>19</option>
+																<option>20</option>
+																<option>21</option>
+																<option>22</option>
+																<option>23</option>
+																<option>24</option>
+																<option>25</option>
+																<option>26</option>
+																<option>27</option>
+																<option>28</option>
+																<option>29</option>
+																<option>30</option>
+																<option>31</option>
+																<option>32</option>
+																<option>33</option>
+																<option>34</option>
+																<option>35</option>
+																<option>36</option>
+																<option>37</option>
+																<option>38</option>
+																<option>39</option>
+																<option>40</option>
+																<option>41</option>
+																<option>42</option>
+																<option>43</option>
+																<option>44</option>
+																<option>45</option>
+																<option>46</option>
+																<option>47</option>
+																<option>48</option>
+																<option>49</option>
+																<option>50</option>
+																<option>51</option>
+																<option>52</option>
+																<option>53</option>
+																<option>54</option>
+																<option>55</option>
+																<option>56</option>
+																<option>57</option>
+																<option>58</option>
+																<option>59</option>
+														</select>
+														<select class="form-control mr-4 w-auto d-inline-block select input bg-white">
+															<option>AM</option>
+															<option selected="">PM</option>
+														</select>
+													</div>
+													<div>
+														<div class="d-inline-block mr-2"><span class="icon-solid icon-calendar color-blue "></span></div>
+														<div class="d-inline-block"><label for="ck1"><input type="checkbox" id="ck1" checked=""> Enabled</label></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row row-custom form-group">
+											<label class="col-md-3">End Date</label>
+											<div class="col-md-9">
+												<div class="wrap-start-date">
+													<select class="select-day form-control mr-2 d-inline-block">
+														<option>Day</option>
+														<option>1</option>
+														<option>2</option>
+														<option>3</option>
+														<option>4</option>
+														<option>5</option>
+														<option>6</option>
+														<option>7</option>
+														<option>8</option>
+														<option>9</option>
+														<option>10</option>
+														<option>11</option>
+														<option>12</option>
+														<option>13</option>
+														<option>14</option>
+														<option>15</option>
+														<option>16</option>
+														<option>17</option>
+														<option>18</option>
+														<option>19</option>
+														<option>20</option>
+														<option selected="">21</option>
+														<option>22</option>
+														<option>23</option>
+														<option>24</option>
+														<option>25</option>
+														<option>26</option>
+														<option>27</option>
+														<option>28</option>
+														<option>29</option>
+														<option>30</option>
+														<option>31</option>
+													</select>
+													<select class="select-month form-control mr-2 d-inline-block">
+													   <option >Month</option>
+														<option>January</option>
+														<option>February</option>
+														<option>March</option>
+														<option>April</option>
+														<option>May</option>
+														<option>June</option>
+														<option>July</option>
+														<option>August</option>
+														<option>September</option>
+														<option selected="">October</option>
+														<option>November</option>
+														<option>December</option>
+													</select>
+													<select class="select-year form-control mr-2 d-inline-block">
+															<option>2019</option>
+															<option>2020</option>
+															<option selected="">2021</option>
+															<option>2022</option>
+															<option>2023</option>
+															<option>2024</option>
+															<option>2025</option>
+													</select>
+													<select class="select-hour form-control mr-2 d-inline-block">
+															<option>1</option>
+															<option>2</option>
+															<option>3</option>
+															<option>4</option>
+															<option>5</option>
+															<option>6</option>
+															<option selected="">7</option>
+															<option>8</option>
+															<option>9</option>
+															<option>10</option>
+															<option>11</option>
+															<option>12</option>
+													</select>
+													<div class="d-flex">
+														<select class="select-minute form-control mr-2 w-auto d-inline-block">
+																<option >MM</option>
+																<option>00</option>
+																<option>01</option>
+																<option>02</option>
+																<option>03</option>
+																<option>04</option>
+																<option>05</option>
+																<option>06</option>
+																<option>07</option>
+																<option>08</option>
+																<option>09</option>
+																<option>10</option>
+																<option>11</option>
+																<option>12</option>
+																<option>13</option>
+																<option>14</option>
+																<option>15</option>
+																<option>16</option>
+																<option>17</option>
+																<option>18</option>
+																<option>19</option>
+																<option>20</option>
+																<option>21</option>
+																<option>22</option>
+																<option>23</option>
+																<option>24</option>
+																<option>25</option>
+																<option>26</option>
+																<option>27</option>
+																<option>28</option>
+																<option>29</option>
+																<option selected="">30</option>
+																<option>31</option>
+																<option>32</option>
+																<option>33</option>
+																<option>34</option>
+																<option>35</option>
+																<option>36</option>
+																<option>37</option>
+																<option>38</option>
+																<option>39</option>
+																<option>40</option>
+																<option>41</option>
+																<option>42</option>
+																<option>43</option>
+																<option>44</option>
+																<option>45</option>
+																<option>46</option>
+																<option>47</option>
+																<option>48</option>
+																<option>49</option>
+																<option>50</option>
+																<option>51</option>
+																<option>52</option>
+																<option>53</option>
+																<option>54</option>
+																<option>55</option>
+																<option>56</option>
+																<option>57</option>
+																<option>58</option>
+																<option>59</option>
+														</select>
+														<select class="form-control mr-4 w-auto d-inline-block select input bg-white">
+															<option>AM</option>
+															<option selected="">PM</option>
+														</select>
+													</div>
+													<div>
+														<div class="d-inline-block mr-2"><span class="icon-solid icon-calendar color-blue "></span></div>
+														<div class="d-inline-block"><label for="ck1"><input type="checkbox" id="ck1" checked=""> Enabled</label></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row row-custom form-group">
+											<label class="col-md-3">Repeat</label>
+											<div class="col-md-9">
+												<select id="select-repeat" class="form-control mr-2 d-inline-block w-auto">
+													<option value="Never" selected="">Never</option>
+													<option value="Every Day">Every Day</option>
+													<option value="Every Week">Every Week</option>
+													<option value="Every 2 Weeks">Every 2 Weeks</option>
+													<option value="Every Month">Every Month</option>
+													<option value="Every Year">Every Year</option>
+												</select>
+											</div>
+										</div>
+										<script type="text/javascript">
+										jQuery(window).on('load', function(){
+											jQuery('#select-repeat').change(function(){
+												var v = jQuery(this).val();
+												if(v == "Every Week" || v == "Every 2 Weeks"){
+													jQuery('#select-end-repeat').attr('disabled', false);
+													jQuery('#date-end-repeat .select-overlay').show();
+												}else{
+													jQuery('#select-end-repeat').attr('disabled', true);
+													jQuery('#date-end-repeat .select-overlay').show();
+													jQuery('#date-end-repeat .btn-clear-date').hide();
+													jQuery('#date-end-repeat input').val('');
+
+													jQuery("#select-end-repeat").prop("selectedIndex", 0);
+												}
+											});
+										});
+										</script>
+										<div class="row row-custom form-group">
+											<label class="col-md-3">End Repeat</label>
+											<div class="col-md-9">
+												<select id="select-end-repeat" class="form-control mr-2 d-inline-block w-auto" disabled>
+													<option value="Never">Never</option>
+													<option value="On Date">On Date</option>
+												</select>
+												<div id="date-end-repeat" class="wrap-input-calendar calendar-bot d-inline-block w-auto position-relative">
+													<div class="wrap-input d-flex bg-white" style="padding:3px !important">
+														<div class="select-overlay"></div>
+														<span class="btn-clear-date icon-solid icon-calendar-times color-blue" style="display:none;"></span>
+														<input id="" type="text" class="input datepicker" value="" placeholder="YYYY-MM-DD">
+													</div>
+												</div>
+											</div>
+										</div>
+										<script type="text/javascript">
+										jQuery(window).on('load', function(){
+											jQuery('#select-end-repeat').change(function(){
+												var vv = jQuery(this).val();
+												if(vv == "Never"){
+													jQuery('#date-end-repeat .select-overlay').show();
+													jQuery('#date-end-repeat .btn-clear-date').hide();
+													jQuery('#date-end-repeat input').val('');
+												}else{
+													jQuery('#date-end-repeat .select-overlay').hide();
+												}
+											});
+										});
+										</script>
+										<div class="row row-custom form-group">
+											<label class="col-md-3">Add Participants</label>
+											<div class="col-md-9">
+											  	<div class="d-flex">
+														<select id="select-participants" class="form-control mr-2 w-auto d-inline-block">
+															<option value="">Please Select</option>
+															<option value="All Enrolled">All Enrolled</option>
+															<option value="Individual">Individual</option>
+														</select>
+
+														<script type="text/javascript">
+														jQuery(document).ready(function(){
+															jQuery('#select-participants').change(function(){
+																var option = jQuery(this).val();
+																if(option == "All Enrolled")
+																	jQuery('#user-participants').addClass('disabled-link3');
+																else
+																	jQuery('#user-participants').removeClass('disabled-link3');
+															});
+															jQuery('#btn-participants-brittany-simms').click(function(){
+																jQuery('#brittany-simms-selected').show();
+																jQuery('#user-participants dt').html("<a href='javascript:void(0);'><span>Please Select</span></a>");
+															});
+														});
+														</script>
+														<div class="input-message">
+															<div class="item-text w-100" style="max-width: 300px;">
+																<dl id="user-participants" class="dropdown disabled-link3">
+															        <dt><a href="javascript:void(0);"><span>Please Select</span></a></dt>
+															        <dd>
+															            <ul>
+															                <li><a href="javascript:void(0)" id="btn-participants-brittany-simms"><img class="thumb" src="images/Brittany.png" />Brittany Simms<span class="value">Brittany Simms</span></a></li>
+
+															                <li><a href="javascript:void(0)" id="btn-participants-brittany-onett"><img class="thumb" src="images/Brittany-Onett.png" />Brittany Onett<span class="value">Brittany Onett</span></a></li>
+															            </ul>
+															        </dd>
+															    </dl>
+															</div>
+														</div>
+												</div>
+												<div id="brittany-simms-selected" style="display:none;">
+													<div class="input-selected-user">
+														<img class="thumb" src="images/Brittany.png" /><strong class="mr-2">Brittany Simms</strong><span class="mr-2">bsimms@ahea.edu</span>
+														<span id="close-brittany-simms" class="icon-solid icon-times-circle color-grey cursor-pointer font20"></span>
+													</div>
+													<script type="text/javascript">
+														jQuery(document).ready(function(){
+															jQuery('#close-brittany-simms').click(function(){
+																jQuery('#brittany-simms-selected').hide();
+																jQuery('#user-participants dt').html("<a href='javascript:void(0);'><span>Please Select</span></a>");
+															});
+														});
+													</script>
+												</div>
+											</div>
+										</div>
+
+										<div class="wrap-btns-meeting mt-5">
+											<div class="d-flex flex-direction-md-column">
+												<div class="mr-2 mb-2"><a href="#" class="btn btn-blue">SAVE AND RETURN TO COURSE</a></div>
+												<div class="mr-2"><a href="#" class="btn btn-blue">SAVE AND DISPLAY</a></div>
+											</div>
+											<div><a href="#" class="btn btn-grey">CANCEL</a></div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="logo-mobile">
+		<a href="#"><img src="images/logo-mobile.jpg"></a>
+	</footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+
+
+</html>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="signOutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="sign-out-logo">
+        	<img src="images/logo.png">
+        </div>
+        <h2>Sign Out</h2>
+        <p>Are you sure you would like to Sign Out of your account?</p>
+      </div>
+      <div class="modal-footer ac">
+        <button type="button" class="" data-dismiss="modal" aria-label="Close">Cancel</button>
+        <button type="button" class="" data-dismiss="modal" aria-label="Close">Sign Out</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade modal-welcome" id="modalWelcome" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="padding-right: 0 !important;">
+  <div class="modal-dialog modal-dialog-900" role="document">
+    <div class="modal-content">
+      <div class="toltip-close3" style="top:14px;right:20px;font-size:15px;"><a href="javascript:void(0);" data-dismiss="modal"><i class="fa fa-times-circle"></i></a></div>
+      <div class="modal-body">
+        <div id="flexslider">
+        	<ul class="slides">
+	        	<li>
+	        		<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Welcome to InspirED <sup>&trade;</sup></h4>
+			        		<p>The InspirED<sup>&trade;</sup> platform is designed to support the critical mission and goals of higher education: teaching and learning, institutional effectiveness, student engagement and outcomes, growth strategies, curriculum development, student mobility, faculty development, efficiency, and cost containment. In this release, we are introducing our professional engagement solution, CollaboratED<sup>&trade;</sup>. Explore the platform by reviewing your home tiles and left navigation menu items.</p>
+
+			        		
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Update your Profile.</h4>
+			        		<p>Select your profile photo or name in the top navigation and select My Profile to view your profile. Select Edit Profile to begin updating your profile. Here you will see the information you included in your AHEA Membership Application. As you match with other prospective partners, they will be able to view your profile and invite you to their projects. Be sure to keep your profile updated to optimize your CollaboratED<sup>&trade;</sup> experience.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-2.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Add Interests.</h4>
+			        		<p>When editing your profile, scroll down to the Collaboration Interests tile and select the Add button to create your first interest. Interests will help you find better matches in the platform. CollaboratED<sup>&trade;</sup> will provide you with recommendations that pair well with your interests.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-3.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Meet your Matches.</h4>
+			        		<p>After creating your interests, select the Find Matches button on the Profile screen or while editing your interest to find prospective partners. On the Matches screen, you can browse through prospects, view their profiles, send them messages, and invite them to projects.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-4.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Create Projects.</h4>
+			        		<p>CollaboratED<sup>&trade;</sup> is designed to guide you through Course and Certificate Development Projects. Create projects from your interests on the profile screen, or start a new project on the My Projects screen. While in the project space, complete tasks to advance to milestones. Invite additional partners while you work. Add files and send messages to partners for effective collaboration. Stay tuned as we expand our project offerings to peer reviews, virtual exchange programs, and more.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-5.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Utilize Resources.</h4>
+			        		<p>Discover techniques, templates, and tutorials that will help with optimizing the use of InspirED<sup>&trade;</sup>, to manage the academic lifecycle at your institution, to collaborate with peers, and to engage constituents. Navigate to the Resources section by selecting Resources in your left navigation menu. The American Higher Education Alliance has constructed templates to support curriculum development, campus programs, and strategic initiatives.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-6.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Engage in Forum Discussions.</h4>
+			        		<p>You have full access to the American Higher Education Alliance network of instructors, administrators, and industry experts. Visit the Forums to discuss leading industry topics and to create some of your own. Go to Forums by selecting Forums in your left navigation menu. Meet AHEA Forum Moderators, share your expertise, and learn from others in your field.</p>
+			        		<div class="text-center">
+			        			<a href="javascript:void(0);" data-dismiss="modal" class="btn btn-blue">Get Started</a>
+			        		</div>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-7.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		    </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

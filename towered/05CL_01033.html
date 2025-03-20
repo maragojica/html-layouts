@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>05CL_01033</title>
+	<meta name="robots" content="noindex">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,400i,700,700i,800,800i&display=swap" rel="stylesheet"><!-- font-family: 'Merriweather Sans', sans-serif; -->
+	<link rel="stylesheet" type="text/css" href="css/sidebar.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/style-profile.css">
+	<link rel="stylesheet" type="text/css" href="css/style-custom-icon.css">
+
+	<script type="text/javascript" src="js/custom.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.js"></script>
+</head>
+<body class="bg-grey-popup">
+	<div id="menu-top-responsive" class="">
+		<div id="wrap-logo">
+			<a href="#" id="logo"><img src="images/logo-universidade-lisboa.png"><img class="group-hide" src="images/Universidade-Logo-b.png"></a>
+			<a href="#" id="menu-button-responsive"><i class="fas fa-bars"></i></a>
+		</div>
+
+	</div>
+	<!--<div id="menu-top-responsive" class="">
+		<div id="wrap-logo">
+			<a href="#" id="logo"><img src="images/logo.png"></a>
+			<a href="#" id="menu-button-responsive"><i class="fas fa-bars"></i></a>
+		</div>
+
+	</div>-->
+	<div id="sidebar-content-mobile" class="menu-mobile">
+		<ul id="nav-mobile" class="nav">
+			<li>
+				<a href="#" class="icon-fa icon-home">
+					<span class="group-hide">Home</span>
+				</a>
+			</li>
+			<li><a href="#" class="icon-fa icon-calendar"><span class="group-hide">My Calendar</span></a></li>
+			<li><a href="#" class="icon-fa icon-user-group"><span class="group-hide">Teams</span></a></li>
+			<li><a href="#" class="icon-fa icon-book-reader icon-solid"><span class="group-hide">My Advisees</span></a></li>
+			<li><a href="#" class="icon-fa icon-book"><span class="group-hide">My Courses</span></a></li>
+			<li class="active">
+				<a href="#" class="icon-fa icon-book-title"><span class="group-hide">My Projects</span></a>
+			</li>
+			<li><a href="#" class="icon-fa icon-copy"><span class="group-hide"> My Files</span></a></li>
+			<li><a href="#" class="icon-fa icon-th-large"><span class="group-hide">Resources</span></a></li>
+			<li><a href="#" class="icon-fa icon-sun-haze"><span class="group-hide">Opportunities</span></a></li>
+			<li><a href="#" class="icon-fa icon-user-friends icon-solid"><span class="group-hide">Recommended Partners</span></a></li>
+			<li><a href="#" class="icon-fa icon-settings"><span class="group-hide">Settings</span></a></li>
+		</ul>
+		<div class="footer-sidebar-mobile">
+			<div id="wrap-logo-bottom" class="text-center">
+				<a href="#"><img src="images/logo-tower-education-a.png" width="50"><img class="group-hide" src="images/logo-tower-education-b.png" width="100"></a>
+			</div>
+		</div>
+	</div>
+	<div id="container">
+		<div id="sidebar" class="sidebar-fixed">
+			<div id="sidebar-wrap">
+				<div id="wrap-logo" class="mb-2">
+					<a href="#" id="logo"><img src="images/logo-universidade-lisboa.png"><img class="group-hide" src="images/Universidade-Logo-b.png"></a>
+				</div>
+				                <div class="wrap-menu-button">
+					<a href="#" id="menu-button-hide-show" class="icon-fa icon-arrow-left"></a>
+				</div>
+				<div id="sidebar-content" class="aux">
+					<ul id="nav" class="nav">
+						
+						<li>
+							<a href="#" class="icon-fa icon-home">
+								<span class="group-hide">Home</span>
+							</a>
+						</li>
+						<li><a href="#" class="icon-fa icon-calendar"><span class="group-hide">My Calendar</span></a></li>
+						<li><a href="#" class="icon-fa icon-user-group"><span class="group-hide">Teams</span></a></li>
+						<li><a href="#" class="icon-fa icon-book-reader icon-solid"><span class="group-hide">My Advisees</span></a></li>
+						<li><a href="#" class="icon-fa icon-book"><span class="group-hide">My Courses</span></a></li>
+						<li class="active">
+							<a href="#" class="icon-fa icon-book-title"><span class="group-hide">My Projects</span></a>
+						</li>
+						<li><a href="#" class="icon-fa icon-copy"><span class="group-hide"> My Files</span></a></li>
+						<li><a href="#" class="icon-fa icon-th-large"><span class="group-hide">Resources</span></a></li>
+						<li><a href="#" class="icon-fa icon-sun-haze"><span class="group-hide">Opportunities</span></a></li>
+						<li><a href="#" class="icon-fa icon-user-friends icon-solid"><span class="group-hide">Recommended Partners</span></a></li>
+						<li><a href="#" class="icon-fa icon-settings"><span class="group-hide">Settings</span></a></li>
+					</ul>
+				</div>
+				<div id="wrap-logo-bottom" class="text-center">
+					<a href="#"><img src="images/logo-tower-education-a.png" width="50"><img class="group-hide" src="images/logo-tower-education-b.png" width="100"></a>
+				</div>
+			</div>
+		</div>
+		<div id="content" class="">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<section class="top">
+							<script type="text/javascript" src="template-parts/inez_top_left_icon.js"></script>
+							<div class="wrap-top-search">
+								<div class="d-flex">
+									<div class="top-search">
+										<div class="box-search">
+											<form action="">
+												<input type="text" placeholder="Search">
+												<button type="submit"><i class="fas fa-search"></i></button>
+											</form>
+										</div>
+										<div class="box-question">
+											<div class="btn-group btn-group-menu">
+												<a href="javascript:void(0);" class="btn-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													<span class="icon-solid icon-input-search"></span>
+												</a>
+												<div class="dropdown-menu">
+													<div id="user-toltip" class="toltip menu-toltip toltip-overlay">
+														<ul>
+															<li><a href="#">Support Documentation</a></li>
+															<li><a href="#">Contact Support</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</section>
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+							  <li class="breadcrumb-item"><a href="#">Home</a></li>
+							  <li class="breadcrumb-item"><a href="#">My Projects</a></li>
+							  <li class="breadcrumb-item active" aria-current="page">New Project</li>
+							</ol>
+						</nav>
+						<section class="wrap-profile">
+							<div class="row row-custom">
+								<div class="col-lg-12 mb-4"><!-- Personal Information -->
+									<div class="personal box box-border-radius box-shadow bg-white position-relative">
+										<div class="inner-wrap mw-lg-50">
+											<div class="box-top position-relative">
+												<h2 class="box-subhead"><span class="icon-regular icon-book-title"></span> Project Information</h2>
+											</div>
+											<div class="box-middle">
+												<div class="form-group">
+													<label for="project-type">Project Type <span class="required">*</span></label>
+													<select class="input select" disabled="">
+														<option value="">Please Select</option>
+														<option selected="">Certificate Development</option>
+														<option>Course Development</option>
+														<option>Curriculum Development</option>
+														<option>Virtual Exchange Program Development</option>
+													</select>
+												</div>
+												<div class="form-group">
+													<label for="name">Name <span class="required">*</span></label>
+													<input type="text" id="name" class="form-control" value="Cross-Cultural Business Management Certification">
+												</div>
+												<div class="form-group">
+													<label for="description">Description <span class="required">*</span></label>
+													<textarea rows="4" id="description" class="form-control">This project is to design a graduate-level certificate in cross-cultural business communications. Rather than just 'reading' about common practices, students will experience them by studying in a global classroom and working through a multinational corporation case study on management and communication strategies.</textarea>
+												</div>
+												<div class="form-group">
+													<label for="discipline1">Subject Area 1 <span class="required">*</span></label>
+													<select class="input select" id="discipline1">
+														<option>Please Select</option>
+														<option>Anthropology</option>
+														<option>Archaeology</option>
+														<option>Arts</option>
+														<option>Biology</option>
+														<option selected="">Business</option>
+														<option>Chemistry</option>
+														<option>Computer Science</option>
+														<option>Earth Science</option>
+														<option>Economics</option>
+														<option>Education</option>
+														<option>Engineering</option>
+														<option>History</option>
+														<option>Human Geography</option>
+														<option>Languages</option>
+														<option>Law</option>
+														<option>Literature</option>
+														<option>Mathematics</option>
+														<option>Medicine and Health</option>
+														<option>Philosophy</option>
+														<option>Physics</option>
+														<option>Political Science</option>
+														<option>Psychology</option>
+														<option>Sociology</option>
+														<option>Space Sciences</option>
+														<option>Statistics</option>
+														<option>Theology</option>
+													</select>
+												</div>
+												<div class="form-group">
+													<label for="discipline2">Subject Area 2</label>
+													<select class="input select" id="discipline2">
+														<option>Please Select</option>
+														<option>Anthropology</option>
+														<option>Archaeology</option>
+														<option>Arts</option>
+														<option>Biology</option>
+														<option>Business</option>
+														<option>Chemistry</option>
+														<option>Computer Science</option>
+														<option>Earth Science</option>
+														<option>Economics</option>
+														<option>Education</option>
+														<option>Engineering</option>
+														<option>History</option>
+														<option>Human Geography</option>
+														<option>Languages</option>
+														<option>Law</option>
+														<option>Literature</option>
+														<option>Mathematics</option>
+														<option>Medicine and Health</option>
+														<option>Philosophy</option>
+														<option>Physics</option>
+														<option>Political Science</option>
+														<option>Psychology</option>
+														<option>Sociology</option>
+														<option>Space Sciences</option>
+														<option>Statistics</option>
+														<option>Theology</option>
+													</select>
+												</div>
+												<div class="form-group">
+													<label for="discipline3">Subject Area 3</label>
+													<select class="input select" id="discipline3">
+														<option>Please Select</option>
+														<option>Anthropology</option>
+														<option>Archaeology</option>
+														<option>Arts</option>
+														<option>Biology</option>
+														<option>Business</option>
+														<option>Chemistry</option>
+														<option>Computer Science</option>
+														<option>Earth Science</option>
+														<option>Economics</option>
+														<option>Education</option>
+														<option>Engineering</option>
+														<option>History</option>
+														<option>Human Geography</option>
+														<option>Languages</option>
+														<option>Law</option>
+														<option>Literature</option>
+														<option>Mathematics</option>
+														<option>Medicine and Health</option>
+														<option>Philosophy</option>
+														<option>Physics</option>
+														<option>Political Science</option>
+														<option>Psychology</option>
+														<option>Sociology</option>
+														<option>Space Sciences</option>
+														<option>Statistics</option>
+														<option>Theology</option>
+													</select>
+												</div>
+
+												<div class="form-group">
+													<div class="row">
+														<div class="col-md-6">
+															<label for="discipline3">Start Date</label>
+															<div class="wrap-input-calendar calendar-bot">
+																<div class="wrap-input d-flex">
+																	<span class="btn-clear-date icon-solid icon-calendar-times color-blue"></span>
+																	<input type="text" class="input datepicker" value="2019-11-01" placeholder="YYYY-MM-DD">
+																</div>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<label for="discipline3">End Date</label>
+															<div class="wrap-input-calendar calendar-bot">
+																<div class="wrap-input d-flex">
+																	<span class="btn-clear-date icon-solid icon-calendar-times color-blue"></span>
+																	<input type="text" class="input datepicker" value="2020-02-28" placeholder="YYYY-MM-DD">
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												
+											</div>
+										</div>
+										<div class="d-flex justify-content-between mt-3 mb-3" style="float: right;">
+											<!--<button class="btn btn-grey btn-w-100 mr-2">End Project</button>-->
+											<div>
+												<button class="btn btn-grey btn-w-100 mr-2">Cancel</button> <button class="btn btn-blue btn-w-100">Create</button>
+											</div>
+										</div>
+									</div>
+
+								</div><!-- END COL -->
+
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+  $( function() {
+    $( ".datepicker" ).datepicker({
+    	dateFormat: "yy-mm-dd",
+    	showButtonPanel: true,
+	    closeText: 'Clear',
+	    onClose: function (dateText, inst) {
+	        if ($(window.event.srcElement).hasClass('ui-datepicker-close')) {
+	             document.getElementById(this.id).value = '';
+	        }
+	    }
+    });
+  } );
+  </script>
+
+
+
+<script src="js/jquery.sortable.js"></script>
+<script type="text/javascript">
+	jQuery(function() {
+		
+	});
+</script>
+
+</html>
+
+
+<!-- Modal -->
+<div class="modal fade" id="signOutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="sign-out-logo">
+        	<img src="images/logo.png">
+        </div>
+        <h2>Sign Out</h2>
+        <p>Are you sure you would like to Sign Out of your account?</p>
+      </div>
+      <div class="modal-footer ac">
+        <button type="button" class="" data-dismiss="modal" aria-label="Close">Cancel</button>
+        <button type="button" class="" data-dismiss="modal" aria-label="Close">Sign Out</button>
+      </div>
+    </div>
+  </div>
+</div>

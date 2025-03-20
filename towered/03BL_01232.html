@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>03BL_01232</title>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,400i,700,700i,800,800i&display=swap" rel="stylesheet"><!-- font-family: 'Merriweather Sans', sans-serif; -->
+	<link rel="stylesheet" type="text/css" href="css/sidebar.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-custom-icon.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/style-resources.css">
+	<link rel="stylesheet" type="text/css" href="css/style-profile.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+
+	<script src="js/jquery-ui.js"></script>
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<script type="text/javascript" src="js/custom.js"></script>
+
+	<script type="text/javascript" src="js/jquery.easy-pie-chart.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script>
+	$(document).ready(function(){
+		Plugins.init();
+	});
+	</script>
+
+    <!-- FlexSlider -->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
+	<script defer src="js/jquery.flexslider.js"></script>
+	    <script type="text/javascript">
+
+	    jQuery(window).load(function(){
+	      jQuery('#flexslider').flexslider({
+	        animation: "fade",
+	        animationLoop: false,
+
+	        start: function(slider){
+	          jQuery('body').removeClass('loading');
+	        }
+	      });
+	    });
+	</script>
+	<!-- end FlexSlider -->
+</head>
+<body class="bg-grey-popup">
+	<div id="menu-top-responsive" class="">
+		<div id="wrap-logo">
+			<a href="#" id="logo"><img src="images/logo.png"></a>
+			<a href="#" id="menu-button-responsive"><i class="fas fa-bars"></i></a>
+		</div>
+	</div>
+	<div id="sidebar-content-mobile" class="menu-mobile">
+		<ul id="nav-mobile" class="nav">
+			<li>
+				<a href="#" class="icon-fa icon-home">
+					<span class="group-hide">Home</span>
+				</a>
+			</li>
+			<li><a href="#" class="icon-fa icon-calendar"><span class="group-hide">My Calendar</span></a></li>
+			<li class="active"><a href="#" class="icon-fa icon-book"><span class="group-hide">My Courses</span></a></li>
+			<li class="">
+				<a href="#" class="icon-fa icon-alarm-clock"><span class="group-hide">My Holds</span></a>
+			</li>
+			<li><a href="#" class="icon-fa icon-usd-square"><span class="group-hide">My Financials</span></a></li>
+			<li><a href="#" class="icon-fa icon-user-chart"><span class="group-hide">My Academics</span></a></li>
+			<li><a href="#" class="icon-fa icon-solar-system"><span class="group-hide">My Groups</span></a></li>
+			<li><a href="#" class="icon-fa icon-book-medical"><span class="group-hide">Course Registration</span></a></li>
+
+
+			<li><a href="#" class="icon-fa icon-copy"><span class="group-hide"> My Files</span></a></li>
+			<li><a href="#" class="icon-fa icon-th-large"><span class="group-hide">Resources</span></a></li>
+			<li><a href="#" class="icon-fa icon-settings"><span class="group-hide">Settings</span></a></li>
+		</ul>
+		<div class="footer-sidebar-mobile">
+			<div id="wrap-logo-bottom" class="text-center">
+				<a href="#"><img src="images/logo-tower-education-a.png" width="50"><img class="group-hide" src="images/logo-tower-education-b.png" width="100"></a>
+			</div>
+		</div>
+	</div>
+	<div id="container">
+		<div id="sidebar" class="sidebar-fixed">
+			<div id="sidebar-wrap">
+				<div id="wrap-logo">
+					<a href="#" id="logo"><img src="images/logo-a.png"><img class="group-hide" src="images/logo-b.png"></a>
+				</div>
+				                <div class="wrap-menu-button">
+					<a href="#" id="menu-button-hide-show" class="icon-fa icon-arrow-left"></a>
+				</div>
+				<div id="sidebar-content" class="aux">
+					<ul id="nav" class="nav">
+						
+
+						<li>
+							<a href="#" class="icon-fa icon-home">
+								<span class="group-hide">Home</span>
+							</a>
+						</li>
+						<li><a href="#" class="icon-fa icon-calendar"><span class="group-hide">My Calendar</span></a></li>
+						<li class="active"><a href="#" class="icon-fa icon-book"><span class="group-hide">My Courses</span></a></li>
+						<li class="">
+							<a href="#" class="icon-fa icon-alarm-clock"><span class="group-hide">My Holds</span></a>
+						</li>
+						<li><a href="#" class="icon-fa icon-usd-square"><span class="group-hide">My Financials</span></a></li>
+						<li><a href="#" class="icon-fa icon-user-chart"><span class="group-hide">My Academics</span></a></li>
+						<li><a href="#" class="icon-fa icon-solar-system"><span class="group-hide">My Groups</span></a></li>
+						<li><a href="#" class="icon-fa icon-book-medical"><span class="group-hide">Course Registration</span></a></li>
+
+
+						<li><a href="#" class="icon-fa icon-copy"><span class="group-hide"> My Files</span></a></li>
+						<li><a href="#" class="icon-fa icon-th-large"><span class="group-hide">Resources</span></a></li>
+						<li><a href="#" class="icon-fa icon-settings"><span class="group-hide">Settings</span></a></li>
+					</ul>
+				</div>
+				<div id="wrap-logo-bottom" class="text-center">
+					<a href="#"><img src="images/logo-tower-education-a.png" width="50"><img class="group-hide" src="images/logo-tower-education-b.png" width="100"></a>
+				</div>
+			</div>
+		</div>
+		<div id="content" class="">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<section class="top">
+							<script type="text/javascript" src="template-parts/brittany_top_left_icon.js"></script>
+							<div class="wrap-top-search">
+								<div class="d-flex">
+									<div class="top-search">
+										<div class="box-search">
+											<form action="">
+												<input type="text" placeholder="Search">
+												<button type="submit"><i class="fas fa-search"></i></button>
+											</form>
+										</div>
+										<div class="box-question">
+											<div class="btn-group btn-group-menu">
+												<a href="javascript:void(0);" class="btn-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													<span class="icon-solid icon-input-search"></span>
+												</a>
+												<div class="dropdown-menu">
+													<div id="user-toltip" class="toltip menu-toltip toltip-overlay">
+														<ul>
+															<li><a href="#" data-toggle="modal" data-target="#modalWelcome">Starter Guide</a></li>
+															<li><a href="#">Support Documentation</a></li>
+															<li><a href="#">Contact Support</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+							  <li class="breadcrumb-item"><a href="#">Home</a></li>
+							  <li class="breadcrumb-item"><a href="#">My Courses</a></li>
+							  <li class="breadcrumb-item"><a href="#">BUS 131-02</a></li>
+							  <li class="breadcrumb-item active" aria-current="page">BUS 131 Classroom</li>
+							</ol>
+						</nav>
+						<section class="row row-custom announcements mb-4">
+							<div class="col-lg-12">
+								<div class="box box-border-radius box-shadow bg-white w-100">
+									<div class="toltip-open position-relative">
+										<a href="javascript:void(0);" class="icon-setting icon-box btn-menu"><i class="fas fa-cog"></i></a>
+										<div class="toltip5 menu-toltip toltip-overlay any-toltip">
+											<ul>
+												<li><a href="#"><span class="icon-regular icon-cog color-white icon-regular mr-1"></span> Edit Settings</a></li>
+												<li><a href="#"><span class="icon-regular icon-edit color-white icon-regular mr-1"></span> Turn Editing Off</a></li>
+												<li><a href="#"><span class="icon-regular icon-clipboard-check color-white icon-regular mr-1"></span> Course Completion</a></li>
+												<li><a href="#"><span class="icon-regular icon-book-user color-white icon-regular mr-1"></span>Unenroll Me from BUS 131-02</a></li>
+												<li><a href="#"><span class="icon-regular icon-filter color-white icon-regular mr-1"></span> Filters</a></li>
+
+												<li><a href="#"><span class="icon-regular icon-book-user color-white icon-regular mr-1"></span> Gradebook Setup</a></li>
+												<li><a href="#"><span class="icon-regular icon-backspace color-white icon-regular mr-1"></span> Reset</a></li>
+
+												<li><a href="#"><span class="icon-regular icon-server color-white icon-regular mr-1"></span> Backup</a></li>
+												<li><a href="#"><span class="icon-regular icon-trash-undo-alt color-white icon-regular mr-1"></span> Restore</a></li>
+												<li><a href="#"><span class="icon-regular icon-file-import color-white icon-regular mr-1"></span> Import</a></li>
+
+												<li><a href="#"><span class="icon-regular icon-share-square color-white icon-regular mr-1"></span>Share</a></li>
+
+
+												<li><a href="#"><span class="icon-regular icon-list-ol color-white icon-regular mr-1"></span> Outcomes</a></li>
+												<li><a href="#"><span class="icon-regular icon-plus-square color-white icon-regular mr-1"></span>More...</a></li>
+											</ul>
+										</div>
+									</div>
+									<h2 class="box-subhead pl-0 font30 mw-100 mb-2">BUS 131-02: ETHICS IN MULTINATIONAL MANAGEMENT</h2>
+									<h3 class="color-orange font24 mb-3">Location: Online</h3>
+
+									<div class="row row-custom">
+										<div class="col-md-4 wrap-subtitle">
+											<h5 class="color-grey font18 font-weight-bold">Spring 2020</h5>
+										</div>
+										<div class="col-md-4 text-center wrap-menu-icons">
+											<nav class="menu-icons d-inline-block">
+												<ul>
+													<li class="active">
+														<a class="tooltips" href="/01BL_01104">
+															<span class="icon-solid icon-book-alt color-black mr-1 icon-size-1"></span>
+															<span class="tooltiptext tooltip-top">Course</span>
+														</a>
+													</li>
+													<li>
+														<a class="tooltips" href="/01BL_01104">
+															<span class="icon-solid icon-user-check color-black mr-1 icon-size-1"></span>
+															<span class="tooltiptext tooltip-top">Participants</span>
+														</a>
+													</li>
+													<li>
+														<a class="tooltips" href="#">
+															<span class="icon-solid icon-award color-black mr-1 icon-size-1-2"></span>
+															<span class="tooltiptext tooltip-top">Badges</span>
+														</a>
+													</li>
+													<li>
+														<a class="tooltips" href="#">
+															<span class="icon-solid icon-user-chart color-black mr-1 icon-size-1"></span>
+															<span class="tooltiptext tooltip-top">Competencies</span>
+														</a>
+													</li>
+													<li>
+														<a class="tooltips" href="/01BL_03900">
+															<span class="icon-solid icon-spell-check color-black mr-1 icon-size-1"></span>
+															<span class="tooltiptext tooltip-top">Grades</span>
+														</a>
+													</li>
+												</ul>
+											</nav>
+
+										</div>
+										<div class="col-md-4 text-right wrap-btns">
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="three-columns">
+							<div class="row row-custom mb-4 sortable">
+								<div class="col-lg-12 mb-4">
+									<div class="box box-border-radius box-shadow bg-white height-auto">
+										<h2 class="box-subhead pl-0 font30 mw-100 mb-2">BUS 131 Classroom <a class="btn btn-blue ml-2" href="#" data-target="#meetingIframeModal" data-toggle="modal">JOIN MEETING</a></h2>
+
+										<div class="mb-4">Enter our virtual classroom to attend scheduled lectures for the Ethics in Multinational Management course.</div>
+										
+									
+
+										<div class="row row-custom form-group">
+											<label class="col-md-3 mb-3">Recordings</label>
+											<div class="col-md-12">
+												<div class="m-auto" style="width:90%">
+													<table class="table table-custom table-custom2 table-striped table-bordered">
+														<thead>
+															<tr>
+																<th>Meeting</th>
+																<th>Date</th>
+																<th>Duration</th>
+																<th class="text-center">Actions</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>BUS 131 Classroom: Ethics</td>
+																<td>Wednesday, 21 October, 2020 6:00 PM</td>
+																<td>00:30</td>
+																<td class="center">
+																	<a href="#"><span class="icon-solid icon-eye"></span></a>
+																</td>
+															</tr>
+															<tr>
+																<td>BUS 131 Classroom </td>
+																<td>Wednesday, 27 October, 2020 6:00 PM</td>
+																<td>01:03</td>
+																<td class="center">
+																	<a href="#"><span class="icon-solid icon-eye"></span></a>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+										
+										
+
+										
+										<div class="d-flex justify-content-between mt-5">
+											<div>
+												<a href="#"><span class="icon-solid icon-arrow-circle-left"></span> <span class="color-black">Lab 1 Discussion</span></a>
+											</div>
+											<div class="form-group">
+												<select class="dropdown-jump">
+													<option>Jump to</option>
+												</select>
+											</div>
+											<div>
+												<a href="#"><span class="color-black">Skills Survey </span> <span class="icon-solid icon-arrow-circle-right"></span></a>
+											</div>
+										</div>
+										
+										
+										
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+<script src="js/jquery.sortable.js"></script>
+<script type="text/javascript">
+	jQuery(function() {
+		
+	});
+</script>
+
+</html>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="signOutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="sign-out-logo">
+        	<img src="images/logo.png">
+        </div>
+        <h2>Sign Out</h2>
+        <p>Are you sure you would like to Sign Out of your account?</p>
+      </div>
+      <div class="modal-footer ac">
+        <button type="button" class="" data-dismiss="modal" aria-label="Close">Cancel</button>
+        <button type="button" class="" data-dismiss="modal" aria-label="Close">Sign Out</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade modal-welcome" id="modalWelcome" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="padding-right: 0 !important;">
+  <div class="modal-dialog modal-dialog-900" role="document">
+    <div class="modal-content">
+      <div class="toltip-close3" style="top:14px;right:20px;font-size:15px;"><a href="javascript:void(0);" data-dismiss="modal"><i class="fa fa-times-circle"></i></a></div>
+      <div class="modal-body">
+        <div id="flexslider">
+        	<ul class="slides">
+	        	<li>
+	        		<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Welcome to InspirED <sup>&trade;</sup></h4>
+			        		<p>The InspirED<sup>&trade;</sup> platform is designed to support the critical mission and goals of higher education: teaching and learning, institutional effectiveness, student engagement and outcomes, growth strategies, curriculum development, student mobility, faculty development, efficiency, and cost containment. In this release, we are introducing our professional engagement solution, CollaboratED<sup>&trade;</sup>. Explore the platform by reviewing your home tiles and left navigation menu items.</p>
+
+			        		
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Update your Profile.</h4>
+			        		<p>Select your profile photo or name in the top navigation and select My Profile to view your profile. Select Edit Profile to begin updating your profile. Here you will see the information you included in your AHEA Membership Application. As you match with other prospective partners, they will be able to view your profile and invite you to their projects. Be sure to keep your profile updated to optimize your CollaboratED<sup>&trade;</sup> experience.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-2.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Add Interests.</h4>
+			        		<p>When editing your profile, scroll down to the Collaboration Interests tile and select the Add button to create your first interest. Interests will help you find better matches in the platform. CollaboratED<sup>&trade;</sup> will provide you with recommendations that pair well with your interests.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-3.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Meet your Matches.</h4>
+			        		<p>After creating your interests, select the Find Matches button on the Profile screen or while editing your interest to find prospective partners. On the Matches screen, you can browse through prospects, view their profiles, send them messages, and invite them to projects.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-4.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Create Projects.</h4>
+			        		<p>CollaboratED<sup>&trade;</sup> is designed to guide you through Course and Certificate Development Projects. Create projects from your interests on the profile screen, or start a new project on the My Projects screen. While in the project space, complete tasks to advance to milestones. Invite additional partners while you work. Add files and send messages to partners for effective collaboration. Stay tuned as we expand our project offerings to peer reviews, virtual exchange programs, and more.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-5.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Utilize Resources.</h4>
+			        		<p>Discover techniques, templates, and tutorials that will help with optimizing the use of InspirED<sup>&trade;</sup>, to manage the academic lifecycle at your institution, to collaborate with peers, and to engage constituents. Navigate to the Resources section by selecting Resources in your left navigation menu. The American Higher Education Alliance has constructed templates to support curriculum development, campus programs, and strategic initiatives.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-6.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Engage in Forum Discussions.</h4>
+			        		<p>You have full access to the American Higher Education Alliance network of instructors, administrators, and industry experts. Visit the Forums to discuss leading industry topics and to create some of your own. Go to Forums by selecting Forums in your left navigation menu. Meet AHEA Forum Moderators, share your expertise, and learn from others in your field.</p>
+			        		<div class="text-center">
+			        			<a href="javascript:void(0);" data-dismiss="modal" class="btn btn-blue">Get Started</a>
+			        		</div>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-7.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		    </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade modal-welcome" id="modalWelcome" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="padding-right: 0 !important;">
+  <div class="modal-dialog modal-dialog-900" role="document">
+    <div class="modal-content">
+      <div class="toltip-close3" style="top:14px;right:20px;font-size:15px;"><a href="javascript:void(0);" data-dismiss="modal"><i class="fa fa-times-circle"></i></a></div>
+      <div class="modal-body">
+        <div id="flexslider">
+        	<ul class="slides">
+	        	<li>
+	        		<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Welcome to InspirED <sup>&trade;</sup></h4>
+			        		<p>The InspirED<sup>&trade;</sup> platform is designed to support the critical mission and goals of higher education: teaching and learning, institutional effectiveness, student engagement and outcomes, growth strategies, curriculum development, student mobility, faculty development, efficiency, and cost containment. In this release, we are introducing our professional engagement solution, CollaboratED<sup>&trade;</sup>. Explore the platform by reviewing your home tiles and left navigation menu items.</p>
+
+			        		
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Update your Profile.</h4>
+			        		<p>Select your profile photo or name in the top navigation and select My Profile to view your profile. Select Edit Profile to begin updating your profile. Here you will see the information you included in your AHEA Membership Application. As you match with other prospective partners, they will be able to view your profile and invite you to their projects. Be sure to keep your profile updated to optimize your CollaboratED<sup>&trade;</sup> experience.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-2.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Add Interests.</h4>
+			        		<p>When editing your profile, scroll down to the Collaboration Interests tile and select the Add button to create your first interest. Interests will help you find better matches in the platform. CollaboratED<sup>&trade;</sup> will provide you with recommendations that pair well with your interests.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-3.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Meet your Matches.</h4>
+			        		<p>After creating your interests, select the Find Matches button on the Profile screen or while editing your interest to find prospective partners. On the Matches screen, you can browse through prospects, view their profiles, send them messages, and invite them to projects.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-4.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Create Projects.</h4>
+			        		<p>CollaboratED<sup>&trade;</sup> is designed to guide you through Course and Certificate Development Projects. Create projects from your interests on the profile screen, or start a new project on the My Projects screen. While in the project space, complete tasks to advance to milestones. Invite additional partners while you work. Add files and send messages to partners for effective collaboration. Stay tuned as we expand our project offerings to peer reviews, virtual exchange programs, and more.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-5.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Utilize Resources.</h4>
+			        		<p>Discover techniques, templates, and tutorials that will help with optimizing the use of InspirED<sup>&trade;</sup>, to manage the academic lifecycle at your institution, to collaborate with peers, and to engage constituents. Navigate to the Resources section by selecting Resources in your left navigation menu. The American Higher Education Alliance has constructed templates to support curriculum development, campus programs, and strategic initiatives.</p>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-6.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		        <li>
+		        	<div class="row">
+			        	<div class="col-md-6">
+			        		<h4 class="bold font-weight-bold mb-3">Engage in Forum Discussions.</h4>
+			        		<p>You have full access to the American Higher Education Alliance network of instructors, administrators, and industry experts. Visit the Forums to discuss leading industry topics and to create some of your own. Go to Forums by selecting Forums in your left navigation menu. Meet AHEA Forum Moderators, share your expertise, and learn from others in your field.</p>
+			        		<div class="text-center">
+			        			<a href="javascript:void(0);" data-dismiss="modal" class="btn btn-blue">Get Started</a>
+			        		</div>
+			        	</div>
+			        	<div class="col-md-6">
+			        		<img src="images/welcome-img-7.jpg">
+			        	</div>
+			        </div>
+		        </li>
+		    </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade modal-welcome" id="meetingIframeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="padding-right: 0 !important;">
+  <div class="modal-dialog modal-dialog-1200" role="document">
+    <div class="modal-content p-0" style="overflow:hidden">
+      
+      <div class="modal-body p-0 m-0" style="line-height: 0;">
+        <iframe src="01IN_06000f.html" width="100%" height="600" frameBorder="0"></iframe>
+      </div>
+
+    </div>
+  </div>
+</div>

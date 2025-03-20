@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<!-- only put in template with form else put into head tag -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- only put in template with form else put into head tag -->
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	<!-- font-family: 'Roboto', sans-serif; -->
+	<!-- Font-awesome -->
+	<link rel='stylesheet' id='fontawesome-custom-css'  href='https://use.fontawesome.com/releases/v5.6.3/css/all.css?ver=5.13.0' type='text/css' media='all' />
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<meta class="mktoString" id="ogTitle" mktoName="Share Title" default="">
+	<meta class="mktoString" id="ogUrl" mktoName="Share Url" default="">
+	<meta class="mktoString" id="ogDescription" mktoName="Share Description">
+
+    <meta property="og:title" content="${ogTitle}">
+  	<meta property="og:url" content="${ogUrl}">
+  	<meta property="og:description" content="${ogDescription}">
+  	<meta property="og:type" content="article">
+
+  	<meta class="mktoString" id="name_button" mktoName="Form button name" default="Form button">
+  	<style type="text/css">.mktoForm{display: none;}</style>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script type="text/javascript">
+		jQuery(window).load(function(){
+			setTimeout(
+		 		function(){
+					jQuery(".mktoForm .mktoButton").html('${name_button}');
+					jQuery(".mktoForm").css('display', 'block').hide().fadeIn();
+				}, 1500);
+		});
+	</script>
+
+	<meta class="mktoString" id="page-title" mktoName="PAGE TITLE" default="LP" >
+  	<title>${page-title}</title>
+  	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300' rel='stylesheet' type='text/css'>
+
+
+
+  	<meta class="mktoBoolean" id="show-date" mktoName="Date section" default="true" true_value="block" false_value="none" true_value_name="Show" false_value_name="Hide">
+  	<meta class="mktoBoolean" id="show-subhead" mktoName="Subhead section" default="true" true_value="block" false_value="none" true_value_name="Show" false_value_name="Hide">
+  	<meta class="mktoBoolean" id="show-copy" mktoName="Copy section" default="true" true_value="block" false_value="none" true_value_name="Show" false_value_name="Hide">
+  	<meta class="mktoBoolean" id="show-subhead2" mktoName="Subhead section" default="true" true_value="block" false_value="none" true_value_name="Show" false_value_name="Hide">
+  	<meta class="mktoBoolean" id="show-speaker-1" mktoName="Speaker 1 section" default="true" true_value="block" false_value="none" true
+  	_value_name="Show" false_value_name="Hide">
+  	<meta class="mktoBoolean" id="show-speaker-2" mktoName="Speaker 2 section" default="true" true_value="block" false_value="none" true
+  	_value_name="Show" false_value_name="Hide">
+  	<meta class="mktoBoolean" id="show-copy-bottom" mktoName="Copy bottom section" default="true" true_value="block" false_value="none" true_value_name="Show" false_value_name="Hide">
+
+  	<meta class="mktoBoolean" id="show-title-form" mktoName="Title form section" default="true" true_value="block" false_value="none" true_value_name="Show" false_value_name="Hide">
+  	<meta class="mktoBoolean" id="copy-full-width" mktoName="Copy section full width?" default="false" true_value="col-md-12" false_value="col-md-7" true_value_name="Yes" false_value_name="none">
+
+  	<meta class="mktoString" id="bg-banner" mktoName="Background of banner" default="#" />
+
+  	<style type="text/css">
+
+  	</style>
+  	<div id="tracking-before-head-tag" class="mktoText" mktoName="Tracking before head tag" style="height:0px !important;"></div>
+</head>
+<body class="page-lp">
+	<div id="tracking-after-body-tag" class="mktoText" mktoName="Tracking after body tag" style="height:0px !important;"></div>
+	<header class="section">
+		<div id="wrap-logo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mktoImg" mktoName="Logo" id="logo" mktoImgLink="#">
+							<a><img border="0" src="logo.png"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div id="headline" class="mktoText mp0" mktoName="Headline">How to Build a Modern HPC Environment </div>
+						<div id="sub-headline" class="mktoText mp0" mktoName="Sub Headline">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </div>
+					</div>
+					<div class="col-md-6">
+						<div id="wrap-form">
+							<form class="mktoForm mktoHasWidth mktoLayoutAbove">
+								<div class="mktoFormRow row">
+									<div class="col-md-6">
+										<div class="mktoFieldDescriptor mktoFormCol">
+											<input id="FirstName" name="FirstName" maxlength="255" placeholder="First Name" class="mktoField mktoTextField mktoHasWidth mktoRequired mktoInvalid" type="text">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="mktoFieldDescriptor mktoFormCol">
+											<input id="LastName" name="LastName" maxlength="255" placeholder="Last Name" class="mktoField mktoTextField mktoHasWidth mktoRequired" type="text">
+										</div>
+									</div>
+								</div>
+								<div class="mktoFormRow row">
+									<div class="col-md-12">
+										<div class="mktoFieldDescriptor mktoFormCol">
+											<input id="Email" name="Email" maxlength="255" placeholder="Email Address" class="mktoField mktoEmailField mktoHasWidth mktoRequired" type="email">
+										</div>
+									</div>
+								</div>
+								<div class="mktoFormRow row">
+									<div class="col-md-12">
+										<div class="mktoFieldDescriptor mktoFormCol">
+											<input id="Company" name="Company" maxlength="255" placeholder="Company Name" class="mktoField mktoTextField mktoHasWidth" type="text">
+										</div>
+									</div>
+								</div>
+								<div class="mktoFormRow row">
+									<div class="col-md-12">
+										<div id="copyform" class="mktoText" mktoName="CopyForm">
+											<p>Rescale needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our Privacy Policy.</p>
+										</div>
+									</div>
+								</div>
+								<div class="mktoButtonRow">
+									<span class="mktoButtonWrap mktoSimple" style="margin-left: 120px;"><button type="submit" class="mktoButton">Get it Now</button></span>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section id="section-copy" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div id="subhead" class="mktoText" mktoName="Subhead" style="display:${show-subhead}">Nulla vitae elit libero, a pharetra augue.</div>
+						<div id="copy" class="mktoText" mktoName="Copy" style="display:${show-copy}">
+							<p>nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate </p>
+							<ul>
+								<li>Lorem ipsum dolor sit amet, consetetur sadipscing</li>
+								<li>nonumy eirmod tempor invidunt ut labore</li>
+								<li>aliquyam erat, sed diam voluptua. At vero eos et accusam et </li>
+								<li>justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum</li>
+							</ul>
+
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div>
+							<img class="d-block m-auto img-responsive" src="img-book.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="section-three-columns" class="section color-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div id="subhead2" class="mktoText" mktoName="Subhead" style="display:${show-subhead2}">Lorem ipsum dolor sit amet, consectetuer adipiscin</div>
+						<div id="copy2" class="mktoText" mktoName="Copy">
+							nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+						</div>
+					</div>
+				</div>
+				<div class="row row-icons">
+					<div class="col-md-4 text-center">
+						<div><i class="fas fa-check-circle fa-2-3x"></i></div>
+						<div class="mt-30 mb-30"><strong>nibh euismod</strong> tincidunt ut laoreet dolore magna aliquam erat </div>
+					</div>
+					<div class="col-md-4 text-center">
+						<div><i class="fas fa-check-circle fa-2-3x"></i></div>
+						<div class="mt-30 mb-30"><strong>nibh euismod</strong> tincidunt ut laoreet dolore magna aliquam erat </div>
+					</div>
+					<div class="col-md-4 text-center">
+						<div><i class="fas fa-check-circle fa-2-3x"></i></div>
+						<div class="mt-30 mb-30"><strong>nibh euismod</strong> tincidunt ut laoreet dolore magna aliquam erat </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="section-quote" class="section color-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div id="copy3" class="mktoText" mktoName="Copy">
+						<p>nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="section-post" class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div>
+							<img src="img-design.jpg" class="d-block m-auto img-responsive pb-30">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div id="subhead" class="mktoText" mktoName="Subhead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy </div>
+						<div id="copy" class="mktoText" mktoName="Copy">
+							<p>nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate </p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<section id="section-cta" class="section color-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="box-cta">
+							<div id="subhead3" class="mktoText" mktoName="Subhead">Lorem ipsum dolor sit amet, consetetur.</div>
+							<div class="cta">
+								<a href="#">Register Now</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="section color-white">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div id="footer-logo">
+						<img src="logo.png">
+					</div>
+					<div id="footer-copy">
+						<p>Rescale empowers organizations to achieve science and engineering breakthroughs by eliminating complexity. From supersonic jets to personalized medicine, industry leaders accelerate new product innovations with unprecedented speed and efficiency with the Rescale Platform - a solution for intelligent full-stack automation for big compute and R&D collaboration on hybrid cloud. Rescale enables IT leaders to deliver high performance computing as a service, with software automation on a hybrid cloud control plane with security, architecture, and financial controls. Learn how you can modernize high performance computing at <a href="http://www.rescale.com">Rescale.com</a></p>
+					</div>
+					<div class="mktoText mp0" mktoName="Footer" id="footer"><p>© Copyright 2017. LoadSpring™ is a trademark of LoadSpring Solutions, Inc.</p></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div id="tracking-footer" class="mktoText" mktoName="Tracking footer" style="height:0px !important;"></div>
+</body>
+</html>

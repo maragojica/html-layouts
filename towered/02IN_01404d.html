@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>02IN_01404d</title>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,400i,700,700i,800,800i&display=swap" rel="stylesheet"><!-- font-family: 'Merriweather Sans', sans-serif; -->
+	<link rel="stylesheet" type="text/css" href="css/sidebar.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-custom-icon.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/style-resources.css">
+	<link rel="stylesheet" type="text/css" href="css/style-profile.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+	<script src="js/jquery-ui.js"></script>
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<script type="text/javascript" src="js/custom.js"></script>
+
+	<script type="text/javascript" src="js/jquery.easy-pie-chart.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script>
+		$(document).ready(function(){
+			Plugins.init();
+		});
+	</script>
+	<!-- charts -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+	<script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+</head>
+<body class="bg-grey-popup">
+	<div id="menu-top-responsive" class="">
+		<div id="wrap-logo">
+			<a href="#" id="logo"><img src="images/logo.png"></a>
+			<a href="#" id="menu-button-responsive"><i class="fas fa-bars"></i></a>
+		</div>
+
+	</div>
+	<div id="sidebar-content-mobile" class="menu-mobile">
+		<ul id="nav-mobile" class="nav">
+			<li>
+				<a href="#" class="icon-fa icon-home">
+					<span class="group-hide">Home</span>
+				</a>
+			</li>
+			<li><a href="#" class="icon-fa icon-calendar"><span class="group-hide">My Calendar</span></a></li>
+			<li><a href="#" class="icon-fa icon-clipboard-list"><span class="group-hide">Tasks</span></a></li>
+			<li><a href="#" class="icon-fa icon-users-class"><span class="group-hide">Committees</span></a></li>
+			<li class="active"><a href="#" class="icon-fa icon-chart-bar"><span class="group-hide">Reports</span></a></li>
+			<li><a href="#" class="icon-fa icon-chart-pie"><span class="group-hide">Program Management</span></a></li>
+			<li><a href="#" class="icon-fa icon-book-title"><span class="group-hide"> My Projects</span></a></li>
+			<li><a href="#" class="icon-fa icon-copy"><span class="group-hide"> My Files</span></a></li>
+			<li><a href="#" class="icon-fa icon-th-large"><span class="group-hide">Resources</span></a></li>
+			<li><a href="#" class="icon-fa icon-settings"><span class="group-hide">Settings</span></a></li>
+		</ul>
+		<div class="footer-sidebar-mobile">
+			<div id="wrap-logo-bottom" class="text-center">
+				<a href="#"><img src="images/logo-tower-education-a.png" width="50"><img class="group-hide" src="images/logo-tower-education-b.png" width="100"></a>
+			</div>
+		</div>
+	</div>
+	<div id="container">
+		<div id="sidebar" class="sidebar-fixed">
+			<div id="sidebar-wrap">
+				<div id="wrap-logo">
+					<a href="#" id="logo"><img src="images/logo-a.png"><img class="group-hide" src="images/logo-b.png"></a>
+				</div>
+				                <div class="wrap-menu-button">
+					<a href="#" id="menu-button-hide-show" class="icon-fa icon-arrow-left"></a>
+				</div>
+				<div id="sidebar-content" class="aux">
+					<ul id="nav" class="nav">
+						
+						<li>
+							<a href="#" class="icon-fa icon-home">
+								<span class="group-hide">Home</span>
+							</a>
+						</li>
+						<li><a href="#" class="icon-fa icon-calendar"><span class="group-hide">My Calendar</span></a></li>
+						<li><a href="#" class="icon-fa icon-clipboard-list"><span class="group-hide">Tasks</span></a></li>
+						<li><a href="#" class="icon-fa icon-users-class"><span class="group-hide">Committees</span></a></li>
+						<li class="active"><a href="#" class="icon-fa icon-chart-bar"><span class="group-hide">Reports</span></a></li>
+						<li><a href="#" class="icon-fa icon-chart-pie"><span class="group-hide">Program Management</span></a></li>
+						<li><a href="#" class="icon-fa icon-book-title"><span class="group-hide"> My Projects</span></a></li>
+						<li><a href="#" class="icon-fa icon-copy"><span class="group-hide"> My Files</span></a></li>
+						<li><a href="#" class="icon-fa icon-th-large"><span class="group-hide">Resources</span></a></li>
+						<li><a href="#" class="icon-fa icon-settings"><span class="group-hide">Settings</span></a></li>
+					</ul>
+				</div>
+				<div id="wrap-logo-bottom" class="text-center">
+					<a href="#"><img src="images/logo-tower-education-a.png" width="50"><img class="group-hide" src="images/logo-tower-education-b.png" width="100"></a>
+				</div>
+			</div>
+		</div>
+		<div id="content" class="">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<section class="top">
+							<script type="text/javascript" src="template-parts/gordon_top_left_icon.js"></script>
+							<div class="wrap-top-search">
+								<div class="d-flex">
+									<div class="top-search">
+										<div class="box-search">
+											<form action="">
+												<input type="text" placeholder="Search">
+												<button type="submit"><i class="fas fa-search"></i></button>
+											</form>
+										</div>
+										<div class="box-question">
+											<div class="btn-group btn-group-menu">
+												<a href="javascript:void(0);" class="btn-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													<span class="icon-solid icon-input-search"></span>
+												</a>
+												<div class="dropdown-menu">
+													<div id="user-toltip" class="toltip menu-toltip toltip-overlay">
+														<ul>
+															<li><a href="#">Support Documentation</a></li>
+															<li><a href="#">Contact Support</a></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<nav aria-label="breadcrumb">
+							<ol class="breadcrumb">
+							  <li class="breadcrumb-item"><a href="#">Home</a></li>
+							  <li class="breadcrumb-item"><a href="#">Reports & Assesment</a></li>
+								<li class="breadcrumb-item"><a href="#">Retention Rates by Program</a></li>
+							  <li class="breadcrumb-item active" aria-current="page">College of Communication</li>
+							</ol>
+						</nav>
+						<section class="three-columns">
+							<div class="row row-custom mb-4">
+								<div class="col-lg-12">
+									<div class="box box-border-radius box-shadow bg-white pt-2 pb-2">
+										<div class="inner-wrap">
+											<div class="box-top position-relative">
+												<h2 class="box-subhead mw-100 font28 pl-0 mb-0"> RETENTION RATES BY PROGRAM</h2>
+												<a href="javascript:void(0);" class="icon-setting icon-box btn-menu"><span class="icon-solid fa-cog"></span></a>
+
+												<div class="toltip2 menu-toltip toltip-overlay any-toltip">
+													<ul>
+														<li><a href="#">Create New</a></li>
+														<li><a href="javascript:void(0);" class="btn-remove">Remove</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row row-custom mb-4">
+								<div class="col-lg-8 mb-3">
+									<div class="box box-border-radius box-shadow bg-white pt-4">
+										<div class="inner-wrap">
+											<div class="box-middle">
+												<script>
+													window.onload = function () {
+
+														var chart2 = new CanvasJS.Chart("chartContainer2", {
+															animationEnabled: true,
+															title:{
+																text: "COLLEGE OF COMMUNICATIONS RETENTION RATES BY PROGRAM",
+																fontSize:20,
+																fontFamily:'Merriweather Sans'
+															},
+															subtitles: [{
+																text: ""
+															}],
+															toolTip: {
+																shared: false
+															},
+															legend: {
+																cursor: "pointer",
+																itemclick: toggleDataSeries2,
+																fontSize:12
+															},
+															dataPointWidth: 35,
+															data: [{
+																type: "column",
+																name: "Business Comm",
+																showInLegend: true,
+																yValueFormatString: "#,##0.# Units",
+																dataPoints: [
+																	{ label: "2017",  y: 68 },
+																	{ label: "2018", y: 73 },
+																	{ label: "2019", y: 75 }
+																]
+															},
+															{
+																type: "column",
+																name: "Journalism",
+																showInLegend: true,
+																yValueFormatString: "#,##0.# Units",
+																dataPoints: [
+																	{ label: "2017", y: 74 },
+																	{ label: "2018", y: 75 },
+																	{ label: "2019", y: 77 }
+																]
+															},
+															{
+																type: "column",
+																name: "Social and Mass Media",
+																showInLegend: true,
+																yValueFormatString: "#,##0.# Units",
+																dataPoints: [
+																	{ label: "2017", y: 76 },
+																	{ label: "2018", y: 77 },
+																	{ label: "2019", y: 79 }
+																]
+															},
+															{
+																type: "column",
+																name: "Public Relations",
+																showInLegend: true,
+																yValueFormatString: "#,##0.# Units",
+																dataPoints: [
+																	{ label: "2017", y: 69 },
+																	{ label: "2018", y: 73 },
+																	{ label: "2019", y: 74 }
+																]
+															}]
+														});
+
+														chart2.render();
+
+														function toggleDataSeries2(e) {
+															if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+																e.dataSeries.visible = false;
+															} else {
+																e.dataSeries.visible = true;
+															}
+															e.chart2.render();
+														}
+
+													}
+												</script>
+												<div class="row">
+													<div class="col-md-12 img-resp">
+														<div id="chartContainer2" style="height: 300px; width: 100%;"></div>
+													</div>
+													<script type="text/javascript" src="js/canvasjs.min.js"></script>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="box box-border-radius box-shadow bg-white pt-4">
+										<div class="inner-wrap">
+											<div class="box-middle list-bullet">
+												<h3 class="color-orange font18 font-weight-bold mb-4">View Retention Rates by</h3>
+
+												<ul>
+													<li><a href="#">College</a></li>
+													<li><a href="#">Academic Delivery Method</a></li>
+													<li class="active"><a href="#">Program</a></li>
+													<li><a href="#">Class Year</a></li>
+													<li><a href="#">Gender</a></li>
+													<li><a href="#">Age Group</a></li>
+													<li><a href="#">Resident/Commuter</a></li>
+													<li><a href="#">Campus Location</a></li>
+													<li><a href="#">Nationality</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+<script src="js/jquery.sortable.js"></script>
+<script type="text/javascript">
+	jQuery(function() {
+		
+	});
+</script>
+
+<!-- JAVASCRIPT FOR DONUT CHART -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
+
+
+</html>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="signOutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="sign-out-logo">
+        	<img src="images/logo.png">
+        </div>
+        <h2>Sign Out</h2>
+        <p>Are you sure you would like to Sign Out of your account?</p>
+      </div>
+      <div class="modal-footer ac">
+        <button type="button" class="" data-dismiss="modal" aria-label="Close">Cancel</button>
+        <button type="button" class="" data-dismiss="modal" aria-label="Close">Sign Out</button>
+      </div>
+    </div>
+  </div>
+</div>
+

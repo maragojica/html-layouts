@@ -1,0 +1,154 @@
+.wrap-lab h3{
+	color:black;
+	display: flex;
+	justify-content: start;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+.wrap-lab .block-top h4{
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+.wrap-lab h5{
+	color:black;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 22px;
+	margin-bottom: 7px;
+}
+.wrap-lab .text1{
+	color:black;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.block-top .box-middle{
+	margin-bottom: 0px;
+}
+.item-flex{
+	display: flex;
+	align-items: self-start;
+}
+
+#tabs .nav-link{
+	border: none !important;
+	border-top-left-radius: 1.2rem !important;
+	border-top-right-radius: 1.2rem !important;
+	color: #000;
+
+	background: #cbcece;
+
+	margin-right: 2px;
+}
+#tabs.nav-tabs .nav-link.active {
+	color:#fff;
+    border-color: none;
+
+	background: #289eff;
+}
+#tabs .nav-link:hover{
+	color:#000 !important;
+}
+#tabs {
+    border-bottom: none !important;
+}
+#tabs .nav-item{
+	max-width: 145px;
+	text-align: center;
+	width: 100%;
+}
+.person-bottom{
+	background: #eeeeee;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	color:black;
+	min-height:60px;
+	padding:10px 15px;
+	width: 100%;
+}
+.person-bottom.bg-blue{
+	background: #dcebfe !important;
+}
+.block-discussion .item-text{
+	color:black;
+	font-size: 14px;
+	line-height: 22px;
+	width: 100%;
+}
+.block-discussion .person-top{
+	margin-left: 15px;
+	margin-bottom: 8px;
+}
+.block-discussion .box-top{
+	margin-bottom: 19px;
+}
+
+.block-discussion .person-img{
+	margin-top:13px;
+}
+.block-discussion .item-img {
+    margin-right: 20px;
+}
+.discussion-2{
+	margin-top: 15px;
+}
+.discussion-1 .person-top,
+.discussion-2 .person-top{
+	color: black;
+	font-weight: bold;
+}
+.discussion-2 .item-text{
+	margin-right: 20px;
+}
+.discussion-2 .item-img {
+    margin-right: 0px;
+    margin-top: 12px;
+    width: 80px;
+}
+.discussion-2 .person-bottom{
+	min-height: auto;
+	background: #c7e6fb;
+}
+
+.discussion-2 .odd .person-bottom {
+    background: #c7e6fb;
+}
+/*.discussion-2 .even .person-bottom {
+    background: #fbc7e8;
+}*/
+.discussion-2 .item-discuss-1 .person-bottom{
+	background: #c7e6fb;
+}
+.discussion-2 .items{
+	margin-bottom: 13px;
+}
+.input-message input[type="text"]{
+	border:1px solid #d4d4d4;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 8px 10px;
+	width: 100%;
+}
+.input-message .item-img a{
+	color:#999999;
+	font-size: 15px;
+	margin-right: 4px;
+}
+.input-message .item-img a:last-child{
+	margin-right: 0px;
+}
+.input-message .item-img{
+	margin-top:8px;
+}
+.box-status{
+	min-width: 200px;
+}
+@media(max-width:767px){
+	.lab-project-partner .item{
+		margin-bottom:15px !important;
+	}
+}

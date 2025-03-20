@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>01IN_02402</title>
+	<meta name="robots" content="noindex">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,400i,700,700i,800,800i&display=swap" rel="stylesheet"><!-- font-family: 'Merriweather Sans', sans-serif; -->
+
+	<link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style-register.css">
+</head>
+<body class="page-enter page-sign-in">
+	<div class="box-message">
+		<a href="#">Sent!</a>
+		<a href="#">Please click here to check your email and reset your password.</a>
+	</div>
+	<div id="container">
+		<header id="wrap-logo" class="ac">
+			<a href="#"><img src="images/logo-ahea.png" /></a>
+		</header>
+		<section id="wrap-form">
+
+			<form>
+				<div class="wrap-input pl-0">
+					<input type="email" name="" placeholder="Email Address" value="">
+				</div>
+				<div class="wrap-input pl-0">
+					<input type="password" name="" placeholder="Password">
+				</div>
+
+				<div class="wrap-checkbox">
+					<div class="remember d-flex">
+						<input type="checkbox" name="" id="remember-me">
+						<label for="remember-me">Remember me</label>
+					</div>
+					<div class="forgot">
+						<a href="#"><b>Forgot Password?</b></a>
+					</div>
+				</div>
+
+				<div class="wrap-input-submit ac">
+					<input type="submit" name="" value="Sign In" class="btn2 btn-blue" style="width: 100%;">
+				</div>
+			</form>
+		</section>
+		<div class="create-account ac m0">
+			<p>Don't have an account? <a href="#"><b>Create an Account</b></a></p>
+		</div>
+	</div>
+	<footer class="container wrap-logo-bottom">
+		<div class="row mb-2 mt-5">
+			<div class="col-md-12 text-center"><span class="d-block-resp">&copy; Tower Education Technologies</span> <span class="hide-resp">|</span> <a href="javascript:void(0);" data-toggle="modal" data-target="#termsModal">Terms of Service</a> | <a href="javascript:void(0);" data-toggle="modal" data-target="#privacyModal">Privacy Policy</a> | <a href="#">Help</a> | <a href="#">Contact Us</a>
+			</div>
+		</div>
+		<a href="https://www.toweredtech.com/"><img src="images/logo-tower-register.png" class="block"></a>
+	</footer>
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			$(".toggle-password").click(function() {
+				$(this).toggleClass("fa-eye fa-eye-slash");
+				var input = $("#password-field");
+				if (input.attr("type") == "password")
+					input.attr("type", "text");
+				else
+					input.attr("type", "password");
+			});
+
+			$(".toggle-password-confirm").click(function() {
+				$(this).toggleClass("fa-eye fa-eye-slash");
+				var input = $("#password-field-confirm");
+				if (input.attr("type") == "password")
+					input.attr("type", "text");
+				else
+					input.attr("type", "password");
+			});
+		});
+	</script>
+</body>
+</html>
