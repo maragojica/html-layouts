@@ -22,6 +22,27 @@
 				<p>Lorem ipsum dolor sit amet consectetur. Facilisis vitae leo pharetra pellentesque vulputate placerat non faucibus ipsum. Sagittis arcu quam pretium orci potenti sodales lectus tellus. Ligula eu mollis feugiat ultrices fringilla at maecenas. Malesuada tempor ipsum urna dictum platea elementum. Mattis accumsan turpis odio purus in neque morbi augue nulla. Diam sit malesuada hac ut.</p>
 				
 		</div>
+
+		<div class="article-newsletter contain-padding">
+			
+			<div class="list-item">
+				<div class="item-header">
+					<div class="title-wrapper">
+						<div class="avatar"></div>
+						<h3 class="item-title">H3 Weekly digest</h3>
+					</div>
+					<a href="#" class="preview-btn">
+						Preview
+						<svg class="preview-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+						</svg>
+					</a>
+				</div>
+				<p class="item-description">
+					Lorem ipsum dolor sit amet consectetur. Facilisis vitae leo pharetra pellentesque vulputate placerat non faucibus ipsum. Sagittis arcu quam pretium orci potenti sodales lectus tellus. Ligula eu mollis feugiat ultrices fringilla et maecenas.
+				</p>
+			</div>
+		</div>
 	</section>
 	</main>
 <?php include 'template-parts/layouts/footer.php'; ?>

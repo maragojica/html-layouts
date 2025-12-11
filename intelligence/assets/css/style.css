@@ -1654,7 +1654,98 @@ footer .copyright{
   margin:0;
   padding:0;
 }
+/* ============================================
+   NEWSLETTER LIST
+   ============================================ */
+ .list-item {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 16px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
 
+        .list-item:hover {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .title-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #e0e0e0;
+            flex-shrink: 0;
+        }
+
+        .avatar.filled {
+            background-color: #333333;
+        }
+
+        .item-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin: 0;
+        }
+
+        .preview-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background-color: #9ca3af;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: background-color 0.2s ease;
+        }
+
+        .preview-btn:hover {
+            background-color: #6b7280;
+        }
+
+        .preview-icon {
+            width: 16px;
+            height: 16px;
+        }
+
+        .item-description {
+            color: #666666;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-left: 52px;
+        }
+
+        @media (max-width: 640px) {
+            .item-header {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .preview-btn {
+                align-self: flex-start;
+            }
+
+            .item-description {
+                margin-left: 0;
+            }
+        }
 /* ============================================
    MEDIA QUERIES
    ============================================ */
