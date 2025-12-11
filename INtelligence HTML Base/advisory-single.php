@@ -1,0 +1,142 @@
+<?php include 'template-parts/layouts/header.php'; ?>
+
+	<main class="content-main data-single-page">		
+		<section class="section-headline section-padding pb-0">
+			<div class="container">
+				<div class="headline text-center justify-center pb-0 pt-0">
+					<h1>H1 Advisory Services</h1>
+				</div>
+			</div>
+		</section>	
+	
+	
+		<section class="article-content section-padding-large">			
+		<div class="article-text font-14 contain-padding">
+			<div class="container">
+				<div class="article-meta pb-50">
+					<div class="card-author">
+						<img src="assets/img/profile.png" alt="Author" width="28" height="28">
+						<span>
+							by <strong>Name Surname</strong>								
+						</span>
+					</div>
+					<div class="article-stats">
+						<span class="meta-date"><b>Last update </b>Dec 13, 2025 <br>at 8:30am</span>
+					</div>
+				</div>	
+				<p>Lorem ipsum dolor sit amet consectetur. Varius aliquet nibh leo quam ut nulla eu amet at. Elementum imperdiet interdum facilisis ut turpis vitae sed. Dignissim mi sed at consequat massa proin ultrices urna nunc. Aliquam enim lectus augue urna suspendisse iaculis. Morbi proin orci sem aliquet leo. Augue adipiscing quisque dui fermentum. Nulla tellus maecenas phasellus egestas nisl donec nisl enim. Nec interdum eget pellentesque vel. Accumsan gravida sit faucibus bibendum in volutpat. Mauris velit varius amet facilisi et mattis massa eu enim. Placerat a nulla nec pellentesque quis. Quisque laoreet malesuada elementum non velit convallis facilisi mollis.</p>
+
+				<p>Nec maecenas dictumst quis lobortis id velit nunc. Tortor cras ipsum netus rhoncus sit volutpat sit porttitor. Aliquam eu eget duis enim quis egestas pellentesque feugiat ridiculus. Mattis ornare aenean enim malesuada urna eget placerat. Adipiscing lobortis nunc ut dui. At mauris quisque nibh suspendisse diam nibh lectus amet. Non massa sagittis posuere vulputate eros. Quam accumsan dolor scelerisque cursus tortor quam. Etiam rhoncus mi id cursus. Sed egestas quis mauris molestie id bibendum ac. Feugiat sem ut arcu nisl sit mauris. Id egestas placerat scelerisque in urna morbi proin. Suscipit varius lorem nibh sed consectetur.</p>
+
+				<p>Tellus mauris hendrerit tortor nisi tristique elit eget vestibulum. Augue condimentum quam sit tristique donec massa sit. Pellentesque mi elementum eu diam volutpat. Neque vel erat faucibus enim id faucibus. Praesent varius diam egestas amet pretium. Augue varius consectetur at mauris diam sit ultricies. Sit sed a vel viverra augue id viverra senectus fermentum. Ante arcu nisi phasellus nisi ipsum massa. Iaculis auctor ullamcorper sed quis nibh vivamus.</p>
+			</div>
+		</div>
+		
+		<div class="article-video font-14 contain-padding">			
+				<img src="assets/img/youtube.png" alt="Article video" class="img-fluid">
+				<div class="caption-video">Video caption ipsum posuere at diam quam viverra nulla suspmi leo aliquet</div>			
+		</div>
+		
+		<div class="article-text font-14 contain-padding">
+			<div class="container">
+				<h2>H2 Lorem ipsum quam viverra commodo euismod placerat elit netus morbi sollicitudin sed interdum mauris ipsum</h2>
+				<h3>H3 Lorem ipsum quam viverra commodo euismod placerat elit</h3>
+				<p>Lorem ipsum dolor sit amet consectetur. Facilisis vitae leo pharetra pellentesque vulputate placerat non faucibus ipsum. Sagittis arcu quam pretium orci potenti sodales lectus tellus. Ligula eu mollis feugiat ultrices fringilla at maecenas. Malesuada tempor ipsum urna dictum platea elementum. Mattis accumsan turpis odio purus in neque morbi augue nulla. Diam sit malesuada hac ut.</p>
+				<h4>H4 Lorem ipsum quam viverra commodo euismod placerat elit</h4>
+				<p>Integer aliquet porta vitae nulla dui. Vitae nunc hendrerit nullam amet ut pellentesque massa. Purus eu facilisis in tellus molestie id eget non gravida. Sed aliquam ut velit potenti at. Penatibus ut integer enim nunc quis cras. Nisl vitae tincidunt viverra ante sed sit mattis convallis tellus. Lorem viverra enim gravida dignissim rhoncus. Non vel ut ac non ornare. Faucibus cras ullamcorper tellus vel quam neque mi ligula eu. Dictum metus et pretium habitant amet dictum.</p>
+				<h5>H5 Lorem ipsum quam viverra commodo euismod placerat elit</h5>
+				<p>Integer aliquet porta vitae nulla dui. Vitae nunc hendrerit nullam amet ut pellentesque massa. Purus eu facilisis in tellus molestie id eget non gravida. Sed aliquam ut velit potenti at. Penatibus ut integer enim nunc quis cras. Nisl vitae tincidunt viverra ante sed sit mattis convallis tellus. Lorem viverra enim gravida dignissim rhoncus. Non vel ut ac non ornare. Faucibus cras ullamcorper tellus vel quam neque mi ligula eu. Dictum metus et pretium habitant amet dictum.</p>
+				<h6>H6 Lorem ipsum quam viverra commodo euismod placerat elit</h6>
+				<p>Integer aliquet porta vitae nulla dui. Vitae nunc hendrerit nullam amet ut pellentesque massa. Purus eu facilisis in tellus molestie id eget non gravida. Sed aliquam ut velit potenti at. Penatibus ut integer enim nunc quis cras. Nisl vitae tincidunt viverra ante sed sit mattis convallis tellus. Lorem viverra enim gravida dignissim rhoncus. Non vel ut ac non ornare. Faucibus cras ullamcorper tellus vel quam neque mi ligula eu. Dictum metus et pretium habitant amet dictum.</p>
+			</div>
+		</div>
+		
+		<div class="article-img contain-padding pt-0">
+			<div class="container">
+				<img src="assets/img/article-img.jpg" alt="Article image" class="img-fluid">
+				<div class="caption-img"><b>Photo/Tool/video caption by</b> Lorem ipsum dolor sit amet consectetur. Varius aliquet nibh leo quam ut nulla eu amet at. Elementum imperdiet interdum facilisis ut turpis vitae sed.</div>
+			</div>
+		</div>
+		
+		<div class="article-text font-14 contain-padding">
+			<div class="container">
+				<p>Lorem ipsum dolor sit amet consectetur. Varius aliquet nibh leo quam ut nulla eu amet at. Elementum imperdiet interdum facilisis ut turpis vitae sed. Dignissim mi sed at consequat massa proin ultrices urna nunc. Aliquam enim lectus augue urna suspendisse iaculis. Morbi proin orci sem aliquet leo. Augue adipiscing quisque dui fermentum. Nulla tellus maecenas phasellus egestas nisl donec nisl enim. Nec interdum eget pellentesque vel. Accumsan gravida sit faucibus bibendum in volutpat. Mauris velit varius amet facilisi et mattis massa eu enim. Placerat a nulla nec pellentesque quis. Quisque laoreet malesuada elementum non velit convallis facilisi mollis.</p>
+
+				<ul>
+					<li>semper maecenas ultricies tincidunt nam varius tristique.</li>
+					<li>ultricies ultricies aliquet cursus sit at bibendum.</li>
+					<li>a ut ut nulla mauris posuere.</li>
+					<li>libero et consequat orci sodales gravida. Ut cursus turpis turpis nibh sollicitudin viverra orci iaculis. Odio lacus phasellus quis arcu arcu id id imperdiet.</li>
+					<li>platea sed ut id senectus.</li>
+					<li>vitae lacus elementum id vitae magna diam lectus.</li>
+				</ul>
+
+				<p>Nec maecenas dictumst quis lobortis id velit nunc. Tortor cras ipsum netus rhoncus sit volutpat sit porttitor. Aliquam eu eget duis enim quis egestas pellentesque feugiat ridiculus. Mattis ornare aenean enim malesuada urna eget placerat. Adipiscing lobortis nunc ut dui. At mauris quisque nibh suspendisse diam nibh lectus amet. Non massa sagittis posuere vulputate eros. Quam accumsan dolor scelerisque cursus tortor quam. Etiam rhoncus mi id cursus. Sed egestas quis mauris molestie id bibendum ac. Feugiat sem ut arcu nisl sit mauris. Id egestas placerat scelerisque in urna morbi proin. Suscipit varius lorem nibh sed consectetur.</p>
+
+				<p>Tellus mauris hendrerit tortor nisi tristique elit eget vestibulum. Augue condimentum quam sit tristique donec massa sit. Pellentesque mi elementum eu diam volutpat. Neque vel erat faucibus enim id faucibus. Praesent varius diam egestas amet pretium. Augue varius consectetur at mauris diam sit ultricies. Sit sed a vel viverra augue id viverra senectus fermentum. Ante arcu nisi phasellus nisi ipsum massa. Iaculis auctor ullamcorper sed quis nibh vivamus.</p>
+			</div>
+		</div>
+		
+		<div class="article-img full-img contain-padding">			
+				<img src="assets/img/article-img.jpg" alt="Article image" class="img-fluid">
+				<div class="caption-img"><b>Photo/Tool/video caption by</b> Lorem ipsum dolor sit amet consectetur. Varius aliquet nibh leo quam ut nulla eu amet at. Elementum imperdiet interdum facilisis ut turpis vitae sed.</div>
+		</div>
+		
+		<div class="article-text font-14 contain-padding">
+			<div class="container">
+				<p>Integer aliquet porta vitae nulla dui. Vitae nunc hendrerit nullam amet ut pellentesque massa. Purus eu facilisis in tellus molestie id eget non gravida. Sed aliquam ut velit potenti at. Penatibus ut integer enim nunc quis cras. Nisl vitae tincidunt viverra ante sed sit mattis convallis tellus. Lorem viverra enim gravida dignissim rhoncus. Non vel ut ac non ornare. Faucibus cras ullamcorper tellus vel quam neque mi ligula eu. Dictum metus et pretium habitant amet dictum.</p>
+			</div>
+		</div>
+		
+		<div class="article-newsletter newsletter contain-padding">
+			<div class="container">
+				<div class="inner-newsletter radius-16 bg-gray-4 align-items-center">
+					<div class="box-headline">
+						<h2 class="color-white">H3 erra nulla suspendisse mi leo aliquet.</h2>
+					</div>
+					<div class="box-form">
+						<img src="assets/img/newsletter-form-article.png" alt="newsletter image" class="img-fluid">
+					</div>					
+				</div>
+			</div>
+		</div>
+		
+		<div class="article-text font-14 contain-padding">
+			<div class="container">
+				<h2>H2 Elit netus morbi sollicitudin sed interdum mauris ipsum</h2>		
+				<p>Integer aliquet porta vitae nulla dui. Vitae nunc hendrerit nullam amet ut pellentesque massa. Purus eu facilisis in tellus molestie id eget non gravida. Sed aliquam ut velit potenti at. Penatibus ut integer enim nunc quis cras. Nisl vitae tincidunt viverra ante sed sit mattis convallis tellus. Lorem viverra enim gravida dignissim rhoncus. Non vel ut ac non ornare. Faucibus cras ullamcorper tellus vel quam neque mi ligula eu. Dictum metus et pretium habitant amet dictum.</p>
+				<p>Integer aliquet porta vitae nulla dui. Vitae nunc hendrerit nullam amet ut pellentesque massa. Purus eu facilisis in tellus molestie id eget non gravida. Sed aliquam ut velit potenti at. Penatibus ut integer enim nunc quis cras. Nisl vitae tincidunt viverra ante sed sit mattis convallis tellus. Lorem viverra enim gravida dignissim rhoncus. Non vel ut ac non ornare. Faucibus cras ullamcorper tellus vel quam neque mi ligula eu. Dictum metus et pretium habitant amet dictum.</p>
+				<p>Integer aliquet porta vitae nulla dui. Vitae nunc hendrerit nullam amet ut pellentesque massa. Purus eu facilisis in tellus molestie id eget non gravida. Sed aliquam ut velit potenti at. Penatibus ut integer enim nunc quis cras. Nisl vitae tincidunt viverra ante sed sit mattis convallis tellus. Lorem viverra enim gravida dignissim rhoncus. Non vel ut ac non ornare. Faucibus cras ullamcorper tellus vel quam neque mi ligula eu. Dictum metus et pretium habitant amet dictum.</p>
+				<p>Integer aliquet porta vitae nulla dui. Vitae nunc hendrerit nullam amet ut pellentesque massa. Purus eu facilisis in tellus molestie id eget non gravida. Sed aliquam ut velit potenti at. Penatibus ut integer enim nunc quis cras. Nisl vitae tincidunt viverra ante sed sit mattis convallis tellus. Lorem viverra enim gravida dignissim rhoncus. Non vel ut ac non ornare. Faucibus cras ullamcorper tellus vel quam neque mi ligula eu. Dictum metus et pretium habitant amet dictum.</p>
+				<p>Integer aliquet porta vitae nulla dui. Vitae nunc hendrerit nullam amet ut pellentesque massa. Purus eu facilisis in tellus molestie id eget non gravida. Sed aliquam ut velit potenti at. Penatibus ut integer enim nunc quis cras. Nisl vitae tincidunt viverra ante sed sit mattis convallis tellus. Lorem viverra enim gravida dignissim rhoncus. Non vel ut ac non ornare. Faucibus cras ullamcorper tellus vel quam neque mi ligula eu. Dictum metus et pretium habitant amet dictum.</p>
+			</div>
+		</div>
+		
+		<div class="article-anchor-link contain-padding">
+			<article class="card card-horizontal bg-pink">				
+				<div class="card-body">
+					<div class="card-author"><img src="assets/img/profile.png" alt="author" class="author-img" width="46"></div>
+					<h3 class="card-title">
+						<a href="#">H3 ipsum posuere at diam quam viverra nulla suspendisse mi leo aliquet.</a>
+					</h3>
+					<div class="card-excerpt font-14">Lorem ipsum dolor sit amet consectetur. Varius aliquet nibh leo quam ut nulla eu amet at. Elementum imperdiet interdum facilisis ut turpis vitae sed.</div>
+					<div class="card-cta"><a href="#">Anchor link</a></div>
+				</div>
+				<div class="card-image">
+					<a href="#"><img src="assets/img/data-tool-sm.jpg" alt="image" width="237"></a>
+				</div>
+			</article>
+		</div>
+		
+		<div class="article-text font-14 contain-padding">
+			<div class="container">
+				<p>Integer aliquet porta vitae nulla dui. Vitae nunc hendrerit nullam amet ut pellentesque massa. Purus eu facilisis in tellus molestie id eget non gravida. Sed aliquam ut velit potenti at. Penatibus ut integer enim nunc quis cras. Nisl vitae tincidunt viverra ante sed sit mattis convallis tellus. Lorem viverra enim gravida dignissim rhoncus. Non vel ut ac non ornare. Faucibus cras ullamcorper tellus vel quam neque mi ligula eu. Dictum metus et pretium habitant amet dictum.</p>
+				<p>Integer aliquet porta vitae nulla dui. Vitae nunc hendrerit nullam amet ut pellentesque massa. Purus eu facilisis in tellus molestie id eget non gravida. Sed aliquam ut velit potenti at. Penatibus ut integer enim nunc quis cras. Nisl vitae tincidunt viverra ante sed sit mattis convallis tellus. Lorem viverra enim gravida dignissim rhoncus. Non vel ut ac non ornare. Faucibus cras ullamcorper tellus vel quam neque mi ligula eu. Dictum metus et pretium habitant amet dictum.</p>
+				<p>Integer aliquet porta vitae nulla dui. Vitae nunc hendrerit nullam amet ut pellentesque massa. Purus eu facilisis in tellus molestie id eget non gravida. Sed aliquam ut velit potenti at. Penatibus ut integer enim nunc quis cras. Nisl vitae tincidunt viverra ante sed sit mattis convallis tellus. Lorem viverra enim gravida dignissim rhoncus. Non vel ut ac non ornare. Faucibus cras ullamcorper tellus vel quam neque mi ligula eu. Dictum metus et pretium habitant amet dictum.</p>
+				<p>Integer aliquet porta vitae nulla dui. Vitae nunc hendrerit nullam amet ut pellentesque massa. Purus eu facilisis in tellus molestie id eget non gravida. Sed aliquam ut velit potenti at. Penatibus ut integer enim nunc quis cras. Nisl vitae tincidunt viverra ante sed sit mattis convallis tellus. Lorem viverra enim gravida dignissim rhoncus. Non vel ut ac non ornare. Faucibus cras ullamcorper tellus vel quam neque mi ligula eu. Dictum metus et pretium habitant amet dictum.</p>
+				<p>Integer aliquet porta vitae nulla dui. Vitae nunc hendrerit nullam amet ut pellentesque massa. Purus eu facilisis in tellus molestie id eget non gravida. Sed aliquam ut velit potenti at. Penatibus ut integer enim nunc quis cras. Nisl vitae tincidunt viverra ante sed sit mattis convallis tellus. Lorem viverra enim gravida dignissim rhoncus. Non vel ut ac non ornare. Faucibus cras ullamcorper tellus vel quam neque mi ligula eu. Dictum metus et pretium habitant amet dictum.</p>
+			</div>
+		</div>
+	</section>
+	</main>
+<?php include 'template-parts/layouts/footer.php'; ?>
